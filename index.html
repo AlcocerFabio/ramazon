@@ -1,0 +1,671 @@
+<!doctype html><html><head><meta charset=utf-8><meta name="description" content="RAMAZON · Thrift de tenis en Santa Cruz, Bolivia. Un par. Una talla. Una vez. Tenis seleccionados y ropa Bershka nueva. Pide por WhatsApp.">
+<meta property="og:title" content="RAMAZON · Thrift de tenis en Santa Cruz">
+<meta property="og:description" content="Un par. Una talla. Una vez. Tenis seleccionados y ropa Bershka nueva.">
+<meta property="og:image" content="img/PROD-019-pro-1.jpg">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#EFE8D8">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2317140F'/%3E%3Ctext x='32' y='45' font-size='40' text-anchor='middle' fill='%23EFE8D8' font-family='Georgia,serif'%3ER%3C/text%3E%3C/svg%3E">
+<meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>RAMAZON · Thrift de tenis en Santa Cruz</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rye&family=Work+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  color-scheme:light;
+  --paper:#EFE8D8; --paper2:#E5DCC6; --card:#FBF9F4; --ink:#17140F; --ink2:#5E5648; --line:#17140F;
+  --stamp:#C8372D; --wa:#1F7A45; --gold:#B8891E;
+  --display:"Rye","Georgia",serif;
+  --body:"Work Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"DM Mono",ui-monospace,Menlo,monospace;
+  --gut:clamp(16px,4vw,48px);
+}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased;
+  background-image:radial-gradient(rgba(23,20,15,.06) 1px,transparent 1.2px);background-size:5px 5px}
+a{color:inherit}
+.wrap{max-width:1240px;margin-inline:auto;padding-inline:var(--gut)}
+.mono{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+:focus-visible{outline:3px solid var(--stamp);outline-offset:3px;border-radius:8px}
+
+/* nav */
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--ink);color:var(--paper)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:56px}
+.logo{font-family:var(--display);font-size:22px;text-decoration:none;letter-spacing:.02em}
+.nav-links{display:flex;gap:20px;align-items:center}
+.nav-links a{text-decoration:none;font-size:14px;opacity:.8}
+.nav-links a:hover{opacity:1}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:2.5px solid var(--ink);border-radius:999px;padding:10px 18px;font-weight:700;font-size:14px;text-decoration:none;cursor:pointer;font-family:var(--body);box-shadow:3px 3px 0 var(--ink);transition:transform .12s,box-shadow .12s;background:var(--card);color:var(--ink)}
+.btn:hover{transform:translate(-1px,-1px);box-shadow:4px 4px 0 var(--ink)}
+.btn:active{transform:translate(2px,2px);box-shadow:1px 1px 0 var(--ink)}
+.btn.ink{background:var(--ink);color:var(--paper)}
+.btn.red{background:var(--stamp);color:#fff}
+.btn.wa{background:var(--wa);color:#fff}
+.nav .btn{border-color:var(--paper);box-shadow:none;background:var(--paper);color:var(--ink);padding:7px 14px}
+@media (max-width:680px){.nav-links a:not(.btn){display:none}}
+
+/* hero */
+.hero{padding-block:clamp(28px,5vw,56px) clamp(24px,4vw,40px);text-align:center}
+.badge{max-width:760px;margin-inline:auto;position:relative}
+.badge svg{width:100%;height:auto;display:block}
+.hero p.lead{max-width:46ch;margin:18px auto 0;font-size:clamp(17px,1.8vw,20px);color:var(--ink2)}
+.hero p.lead b{color:var(--ink)}
+.ctas{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:22px}
+.ctas .btn{padding:13px 22px;font-size:15px}
+.facts{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:22px}
+.facts span{border:2px dashed var(--ink);border-radius:999px;padding:6px 12px}
+
+/* ticker */
+.ticker{background:var(--ink);color:var(--paper);overflow:hidden;white-space:nowrap;padding-block:12px;border-block:3px solid var(--ink)}
+.ticker-track{display:inline-flex;gap:36px;animation:tick 40s linear infinite;padding-left:36px}
+.ticker-track span{font-family:var(--display);font-size:22px}
+.ticker-track i{font-style:normal;color:var(--stamp)}
+@keyframes tick{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.ticker-track{animation:none}}
+
+/* sections */
+section{padding-block:clamp(44px,6vw,80px) 0}
+.ribbon{display:inline-block;position:relative;background:var(--ink);color:var(--paper);font-family:var(--display);font-size:clamp(22px,3vw,34px);padding:8px 34px 10px;clip-path:polygon(0 0,100% 0,calc(100% - 16px) 50%,100% 100%,0 100%,16px 50%);margin:0}
+.sec-head{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;margin-bottom:22px}
+.sec-head p{margin:0;color:var(--ink2);max-width:42ch}
+
+/* featured */
+.feat{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.fc{border:3px solid var(--ink);border-radius:20px;overflow:hidden;background:var(--card);box-shadow:6px 6px 0 var(--ink);cursor:pointer;padding:0;text-align:left;font:inherit;color:inherit;display:flex;flex-direction:column;transition:transform .15s,box-shadow .15s}
+.fc:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0 var(--ink)}
+.fc .ph{aspect-ratio:1/1;width:100%;max-width:100%;overflow:hidden;background:#EDEAE4;border-bottom:3px solid var(--ink);position:relative}
+.fc img{width:100%;height:100%;object-fit:cover;display:block}
+.fc .cap{padding:14px 16px 16px;display:grid;gap:2px}
+.fc .cap strong{font-family:var(--display);font-size:24px;font-weight:400;line-height:1.1}
+@media (max-width:860px){.feat{grid-template-columns:1fr}}
+
+/* filters */
+.filters{position:sticky;top:calc(env(safe-area-inset-top,0px) + 56px);z-index:10;background:var(--paper);padding-block:12px;display:grid;gap:10px;border-bottom:3px solid var(--ink)}
+.frows{display:grid;gap:10px}
+.filters.closed .frows{display:none}
+.ftog{all:unset;box-sizing:border-box;cursor:pointer;display:flex;align-items:center;gap:10px;width:100%;padding:6px 14px;border:2px solid var(--ink);border-radius:999px;background:var(--card);font-family:var(--body);font-weight:600;font-size:14px;box-shadow:2px 2px 0 var(--ink)}
+.ftog:focus-visible{outline:3px solid var(--stamp);outline-offset:3px}
+.ftog #fsum,.ftog .fsum{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--ink2);font-weight:500}
+.ftog .ar{font-size:14px}
+.filters.closed{padding-block:8px}
+.row{display:flex;gap:8px;align-items:center;overflow-x:auto;scrollbar-width:none;padding:2px 2px 4px}
+.row::-webkit-scrollbar{display:none}
+.row .lbl{color:var(--ink2);min-width:58px;flex:none}
+.chips{display:flex;gap:8px}
+.chip{flex:none;border:2px solid var(--ink);cursor:pointer;border-radius:999px;padding:7px 13px;background:var(--card);color:var(--ink);font-family:var(--body);font-size:14px;font-weight:600;display:inline-flex;align-items:center;gap:7px}
+.chip.size{font-family:var(--mono);font-size:13px;min-width:48px;justify-content:center}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.dot{width:12px;height:12px;border-radius:50%;border:1.5px solid var(--ink);flex:none}
+select.chip{appearance:none;padding-right:28px;background-image:linear-gradient(45deg,transparent 50%,var(--ink) 50%),linear-gradient(135deg,var(--ink) 50%,transparent 50%);background-position:calc(100% - 15px) 50%,calc(100% - 10px) 50%;background-size:5px 5px;background-repeat:no-repeat}
+.count{color:var(--ink2);margin:18px 0 14px}
+.count b{color:var(--ink)}
+
+/* grid */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:26px 18px}
+.card{border:2.5px solid var(--ink);border-radius:18px;background:var(--card);box-shadow:4px 4px 0 var(--ink);overflow:hidden;display:flex;flex-direction:column}
+.card .ph{position:relative;aspect-ratio:1/1;max-width:100%;overflow:hidden;background:#EDEAE4;border:0;border-bottom:2.5px solid var(--ink);padding:0;cursor:pointer;display:block;width:100%}
+.card .ph img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s cubic-bezier(.2,.7,.2,1)}
+.card .ph:hover img{transform:scale(1.04)}
+.tag{position:absolute;border:2px solid var(--ink);border-radius:999px;padding:4px 9px;background:var(--card);color:var(--ink);font-family:var(--mono);font-size:12px;font-weight:500}
+.tag.id{top:10px;left:10px}
+.tag.sz{top:10px;right:10px;background:var(--ink);color:var(--paper)}
+.tag.real{bottom:10px;left:10px;font-size:10.5px;letter-spacing:.06em;text-transform:uppercase}
+.sold{position:absolute;inset:0;display:grid;place-items:center;background:rgba(239,232,216,.7)}
+.sold span{font-family:var(--display);font-size:30px;color:var(--stamp);border:4px solid var(--stamp);border-radius:10px;padding:2px 14px;transform:rotate(-12deg);background:rgba(251,249,244,.8)}
+.body{padding:12px 14px 14px;display:grid;gap:8px;flex:1}
+.meta{display:grid;gap:1px}
+.meta .brand{color:var(--ink2)}
+.meta .name{font-weight:700;font-size:17px;line-height:1.2}
+.meta .cw{color:var(--ink2);font-size:13.5px}
+.buy{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:auto}
+.price{font-family:var(--mono);font-weight:500;font-size:17px;font-variant-numeric:tabular-nums}
+.price small{font-size:12px;color:var(--ink2)}
+.want{padding:7px 13px;font-size:13px;box-shadow:2px 2px 0 var(--ink);white-space:nowrap;flex:none}
+.empty{padding:48px 0;color:var(--ink2);text-align:center}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.step{background:var(--card);border:2.5px solid var(--ink);border-radius:18px;box-shadow:4px 4px 0 var(--ink);padding:22px;display:grid;gap:8px;align-content:start}
+.step .n{font-family:var(--display);font-size:40px;line-height:1;color:var(--stamp)}
+.step h3{margin:0;font-size:18px}
+.step p{margin:0;color:var(--ink2)}
+
+/* promo */
+.promo{margin-block:clamp(32px,5vw,56px);border:3px solid var(--ink);border-radius:24px;background:var(--stamp);color:#fff;box-shadow:6px 6px 0 var(--ink);padding:clamp(20px,3.4vw,36px);display:grid;grid-template-columns:1.3fr 1fr;gap:clamp(18px,3vw,36px);align-items:center}
+.promo h2{font-family:var(--display);font-weight:400;font-size:clamp(30px,4.4vw,52px);line-height:1;margin:6px 0 10px}
+.promo p{margin:0;opacity:.95}
+.promo ol{margin:14px 0 18px;padding-left:22px;display:grid;gap:6px;font-weight:600}
+.promo .btn{border-color:var(--ink)}
+.cd{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;text-align:center}
+.cd div{background:var(--card);color:var(--ink);border:2.5px solid var(--ink);border-radius:14px;padding:10px 4px;box-shadow:3px 3px 0 var(--ink)}
+.cd b{display:block;font-family:var(--mono);font-size:clamp(24px,3.6vw,36px);font-weight:500;font-variant-numeric:tabular-nums;line-height:1.1}
+.cd span{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink2)}
+[hidden]{display:none!important}
+.lvs{display:grid;gap:8px}.lv{display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:baseline;background:var(--card);color:var(--ink);border:2.5px solid var(--ink);border-radius:14px;padding:10px 14px;box-shadow:3px 3px 0 var(--ink)}.lv s{font-family:var(--mono);color:var(--ink2);font-size:14px}.lv b{font-family:var(--mono);font-size:20px;font-weight:500;color:var(--stamp)}
+.promo .fine{font-size:13px;opacity:.85;margin-top:12px}
+@media (max-width:780px){.promo{grid-template-columns:1fr}}
+.price s{color:var(--ink2);font-size:13px;margin-right:6px;text-decoration-thickness:1.5px}
+.price .fl{color:var(--stamp);font-weight:500}
+.price em{display:block;font-style:normal;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2)}
+.tag.off{bottom:10px;right:10px;background:var(--stamp);color:#fff}
+.qr{display:grid;grid-template-columns:auto 1fr;gap:clamp(18px,3vw,36px);align-items:center;margin-top:18px;background:var(--card);border:2.5px solid var(--ink);border-radius:18px;box-shadow:4px 4px 0 var(--ink);padding:clamp(18px,3vw,28px)}
+.qr img{width:min(240px,60vw);height:auto;display:block;border:2px solid var(--ink);border-radius:12px;background:#fff}
+.qr h3{font-family:var(--display);font-weight:400;font-size:clamp(26px,3vw,36px);margin:0 0 8px;line-height:1.05}
+.qr ol{margin:0 0 14px;padding-left:20px;display:grid;gap:5px;color:var(--ink2)}
+.qr ol b{color:var(--ink)}
+@media (max-width:640px){.qr{grid-template-columns:1fr;justify-items:center;text-align:left}}
+/* about */
+.about{display:grid;grid-template-columns:1fr 1.25fr;gap:clamp(20px,4vw,48px);align-items:center}
+.about h2{font-family:var(--display);font-weight:400;font-size:clamp(34px,5vw,60px);line-height:.98;margin:10px 0 14px}
+.about h2 em{font-style:normal;color:var(--stamp)}
+.about p{margin:0 0 12px;color:var(--ink2);font-size:17px;max-width:46ch}
+.about p b{color:var(--ink)}
+.pillars{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.pillar{background:var(--card);border:2.5px solid var(--ink);border-radius:18px;box-shadow:4px 4px 0 var(--ink);padding:18px;display:grid;gap:6px;align-content:start}
+.pillar:nth-child(2){transform:rotate(1.2deg)}.pillar:nth-child(3){transform:rotate(-1deg)}
+.pillar .ic{font-size:26px;line-height:1}
+.pillar h3{margin:0;font-size:17px}
+.pillar p{margin:0;font-size:14.5px;color:var(--ink2)}
+.stamp{display:inline-block;font-family:var(--display);color:var(--stamp);border:3px solid var(--stamp);border-radius:10px;padding:2px 12px;transform:rotate(-4deg);font-size:18px;letter-spacing:.04em}
+@media (max-width:860px){.about{grid-template-columns:1fr}}
+@media (max-width:460px){.pillars{grid-template-columns:1fr}.pillar{transform:none!important}}
+/* packs */
+.tiers{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.tierc{background:var(--card);border:2.5px solid var(--ink);border-radius:18px;box-shadow:4px 4px 0 var(--ink);padding:20px;display:grid;gap:6px;align-content:start;position:relative}
+.tierc.hot{background:var(--ink);color:var(--paper)}
+.tierc.hot p{color:rgba(239,232,216,.75)}
+.tierc .big2{font-family:var(--display);font-size:44px;line-height:1;color:var(--stamp)}
+.tierc h3{margin:0;font-size:19px}
+.tierc p{margin:0;color:var(--ink2);font-size:14.5px}
+.tierc .flag{position:absolute;top:-12px;right:14px;background:var(--stamp);color:#fff;border:2px solid var(--ink);border-radius:999px;padding:3px 10px;font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase}
+.packs{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:18px;margin-top:26px}
+.pk{background:var(--card);border:2.5px solid var(--ink);border-radius:18px;box-shadow:4px 4px 0 var(--ink);overflow:hidden;display:flex;flex-direction:column}
+.pk .th{display:grid;grid-template-columns:repeat(3,1fr);border-bottom:2.5px solid var(--ink)}
+.pk .th img{width:100%;height:clamp(96px,11vw,124px);object-fit:cover;display:block;background:#EDEAE4}
+.pk .th img+img{border-left:2px solid var(--ink)}
+.pk .in{padding:14px 16px 16px;display:grid;gap:8px;flex:1}
+.pk h3{margin:0;font-family:var(--display);font-weight:400;font-size:24px;line-height:1.05}
+.pk ul{margin:0;padding-left:18px;font-size:14px;color:var(--ink2);display:grid;gap:2px}
+.pk .row2{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:auto;flex-wrap:wrap}
+.addpk{width:100%;border:2px dashed var(--ink);background:transparent;border-radius:999px;padding:7px 10px;font:600 13px var(--body);color:var(--ink);cursor:pointer}
+.addpk[aria-pressed="true"]{background:var(--stamp);color:#fff;border-style:solid}
+.pbar{position:fixed;left:50%;bottom:calc(14px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:30;width:min(760px,calc(100% - 24px));background:var(--ink);color:var(--paper);border:3px solid var(--ink);border-radius:20px;box-shadow:5px 5px 0 var(--stamp);padding:12px 14px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.pbar[hidden]{display:none}
+body:has(.pbar:not([hidden])) footer{padding-bottom:130px}
+.pbar .t1{font-weight:700}
+.pbar .t2{font-family:var(--mono);font-size:12px;opacity:.8}
+.pbar .acts{display:flex;gap:8px}
+.pbar .btn{box-shadow:none;padding:9px 14px}
+.pbar .x{background:transparent;color:var(--paper);border-color:var(--paper)}
+footer{margin-top:clamp(56px,8vw,96px);background:var(--ink);color:var(--paper);padding-block:36px 48px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:22px;justify-content:space-between;align-items:center}
+.big{font-family:var(--display);font-size:clamp(42px,9vw,104px);line-height:.95;margin:0}
+.num{user-select:all;font-family:var(--mono);font-size:18px}
+footer .mono{opacity:.75}
+
+/* modal */
+dialog{border:3px solid var(--ink);padding:0;border-radius:24px;background:var(--card);color:var(--ink);width:min(1000px,calc(100% - 24px));max-height:calc(100% - 32px);overflow:auto;box-shadow:8px 8px 0 var(--ink)}
+dialog::backdrop{background:rgba(23,20,15,.55)}
+.m{display:grid;grid-template-columns:1.1fr 1fr}
+.m-media{position:relative;background:#EDEAE4;border-right:3px solid var(--ink)}
+.m-track{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none}
+.m-track::-webkit-scrollbar{display:none}
+.m-track figure{flex:none;width:100%;margin:0;position:relative;scroll-snap-align:start}
+.m-track img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block}
+.m-track figcaption{position:absolute;bottom:12px;left:12px}
+.m-nav{display:flex;gap:6px;justify-content:center;padding:10px}
+.m-nav button{width:10px;height:10px;border-radius:50%;border:2px solid var(--ink);background:transparent;padding:0;cursor:pointer}
+.m-nav button[aria-current="true"]{background:var(--ink)}
+.m-body{padding:clamp(20px,3vw,32px);display:grid;gap:14px;align-content:start}
+.m-body h3{font-family:var(--display);font-weight:400;font-size:clamp(28px,3.4vw,40px);line-height:1.05;margin:0}
+.m-top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.m-price{font-family:var(--mono);font-size:22px;font-weight:500}
+.vibe{background:var(--paper);border:2px solid var(--ink);border-radius:16px;padding:14px 16px;display:grid;gap:6px;position:relative}
+.vibe .who{display:flex;align-items:center;gap:8px}
+.vibe .av{width:24px;height:24px;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center;font-family:var(--display);font-size:12px}
+.vibe .who b{font-size:13px}.vibe .who span{color:var(--ink2);font-size:12px}
+.vibe p{margin:0;font-size:15px}
+.spec{display:grid;grid-template-columns:auto 1fr;gap:8px 16px;margin:0;border-top:2px dashed var(--ink);padding-top:14px}
+.spec dt{color:var(--ink2);font-size:13px;text-transform:uppercase;letter-spacing:.06em;font-family:var(--mono)}
+.spec dd{margin:0;font-size:14.5px}
+.feats{margin:0;padding-left:18px;display:grid;gap:5px;font-size:15px}
+.feats li::marker{color:var(--stamp)}
+.note{color:var(--ink2);font-size:13px;margin:0}
+.warn{font-size:13px;border-left:4px solid var(--gold);padding:6px 10px;background:var(--paper);margin:0}
+.close{position:absolute;top:12px;right:12px;z-index:3;width:40px;height:40px;border-radius:50%;border:2.5px solid var(--ink);background:var(--card);color:var(--ink);font-size:22px;cursor:pointer;line-height:1}
+@media (max-width:780px){.m{grid-template-columns:1fr}.m-media{border-right:0;border-bottom:3px solid var(--ink)}}
+</style>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="#top">Ramazon</a>
+    <nav class="nav-links">
+      <a href="#destacados">Destacados</a>
+      <a href="#packs">Packs</a>
+      <a href="#tienda">Tenis</a>
+      <a href="#ropa">Ropa</a>
+      <a href="#como-comprar">Cómo comprar</a>
+      <a class="btn" id="nav-wa" href="#" target="_blank" rel="noopener">WhatsApp</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="wrap hero">
+    <div class="badge" aria-label="RAMAZON · Un par. Una talla. Una vez.">
+      <svg viewBox="0 0 760 330" role="img" aria-hidden="true">
+        <defs><path id="arc" d="M70,250 Q380,-40 690,250"/></defs>
+        <path d="M20,40 Q100,20 190,40 T380,40 T570,40 T740,40" fill="none" stroke="#17140F" stroke-width="3"/>
+        <g stroke="#17140F" stroke-width="2" opacity=".35">
+          <line x1="380" y1="300" x2="120" y2="120"/><line x1="380" y1="300" x2="220" y2="90"/><line x1="380" y1="300" x2="320" y2="78"/>
+          <line x1="380" y1="300" x2="440" y2="78"/><line x1="380" y1="300" x2="540" y2="90"/><line x1="380" y1="300" x2="640" y2="120"/>
+        </g>
+        <text font-family="Rye, Georgia, serif" font-size="104" fill="#17140F" stroke="#FBF9F4" stroke-width="2" paint-order="stroke" letter-spacing="4" text-anchor="middle">
+          <textPath href="#arc" startOffset="50%">RAMAZON</textPath>
+        </text>
+        <g transform="translate(380 262)">
+          <path d="M-300,-26 L-260,-26 L-260,26 L-300,26 L-282,0 Z" fill="#17140F"/>
+          <path d="M300,-26 L260,-26 L260,26 L300,26 L282,0 Z" fill="#17140F"/>
+          <rect x="-262" y="-30" width="524" height="60" rx="4" fill="#FBF9F4" stroke="#17140F" stroke-width="3"/>
+          <text y="10" font-family="Work Sans, sans-serif" font-weight="700" font-size="25" letter-spacing="3" fill="#17140F" text-anchor="middle">UN PAR · UNA TALLA · UNA VEZ</text>
+        </g>
+      </svg>
+    </div>
+    <p class="lead"><b>Thrift shop de tenis y ropa en Santa Cruz.</b> Nike, Jordan, Adidas, New Balance, On y más: rescatados, limpiados y listos pa' la calle. Uno por modelo. Cuando se va, no vuelve.</p>
+    <div class="ctas">
+      <a class="btn red" href="#tienda">Buscar mi talla</a>
+      <a class="btn" id="hero-wa" href="#" target="_blank" rel="noopener">Escribirnos</a>
+    </div>
+    <div class="facts mono"><span>Drop 01</span><span id="hero-count">pares</span><span id="hero-ropa">prendas</span><a id="hero-map" href="https://maps.app.goo.gl/7cwdgA1nS5obiRz67" target="_blank" rel="noopener" style="border:2px solid var(--ink);border-radius:999px;padding:6px 12px;text-decoration:none;background:var(--card)">📍 Nuestro punto</a><span>QR o efectivo</span><a class="promo-only" href="#promo" style="border:2px solid var(--ink);border-radius:999px;padding:6px 12px;text-decoration:none;background:var(--stamp);color:#fff">🔴 Precio LIVE</a></div>
+  </div>
+
+  <div class="wrap promo-only" id="promo">
+    <div class="promo">
+      <div>
+        <span class="mono">En vivo · TikTok, Instagram y Facebook</span>
+        <h2>Compra en el LIVE y paga menos</h2>
+        <p>El precio en rojo de cada par es el <b>precio LIVE</b>: vale cuando lo pides durante nuestras transmisiones en vivo. Pa' no perderte ninguna:</p>
+        <ol>
+          <li>Síguenos en TikTok, Instagram y Facebook.</li>
+          <li>Activa las notificaciones pa' saber cuándo arranca el próximo live.</li>
+          <li>Pide tu par en el live y paga el precio LIVE.</li>
+        </ol>
+        <a class="btn ink" id="promo-wa" href="#" target="_blank" rel="noopener">Avísame del próximo live</a>
+        <p class="fine">Fuera del live rige el precio publicado. Cada par es único: el primero que lo pide en el live, se lo lleva.</p>
+      </div>
+      <div>
+        <p class="mono" style="margin:0 0 10px">Publicado → en el LIVE</p><div class="lvs"><div class="lv"><span>Jordan, Dunk, Cloudmonster</span><s>Bs 400</s><b>Bs 350</b></div><div class="lv"><span>AF1, Samba, Campus, NB 530</span><s>Bs 330</s><b>Bs 300</b></div><div class="lv"><span>Running y training</span><s>Bs 280</s><b>Bs 250</b></div><div class="lv"><span>Salida rápida</span><s>Bs 250</s><b>Bs 230</b></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ticker" aria-hidden="true"><div class="ticker-track" id="ticker"></div></div>
+
+
+  <section id="ramazon">
+    <div class="wrap about">
+      <div>
+        <span class="stamp">Thrift · Santa Cruz</span>
+        <h2>No es tienda de centro comercial. <em>Es cacería.</em></h2>
+        <p><b>Ramazon es un thrift de tenis y ropa.</b> Hacemos lo que harías tú en la ropa americana, pero sin que pierdas la tarde: revisamos cientos de pares y solo publicamos los que valen la pena.</p>
+        <p>Cada par tiene su historia, su talla y un solo dueño nuevo. Nada de stock repetido ni precios de tienda. <b>Estilo de marca a precio thrift.</b></p>
+      </div>
+      <div class="pillars">
+        <div class="pillar"><span class="ic">🔎</span><h3>Curado, no amontonado</h3><p>Elegimos par por par. Si no lo usaríamos nosotros, no entra.</p></div>
+        <div class="pillar"><span class="ic">🧼</span><h3>Limpio y revisado</h3><p>Suela, costuras y plantilla revisadas. Lo lavamos antes de entregarlo.</p></div>
+        <div class="pillar"><span class="ic">🪪</span><h3>Estado sin filtro</h3><p>Cada ficha dice la condición real. Si tiene uso, lo decimos.</p></div>
+        <div class="pillar"><span class="ic">♻️</span><h3>Segunda vuelta</h3><p>Un buen par merece más calle. Tú te llevas estilo y el planeta respira.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="packs">
+    <div class="wrap">
+      <div class="sec-head"><h2 class="ribbon">Packs</h2><p>Dúos y tríos ya armados por talla, con precio cerrado. Elige el tuyo y pídelo por WhatsApp.</p></div>
+      <div class="tiers">
+        <div class="tierc"><span class="mono">Dúo · 4 packs armados</span><span class="big2">Ahorras Bs 20</span><h3>vs. comprar los pares sueltos</h3><p>Pa' ti y tu pana, o uno de diario y uno de salir. Desde Bs 540.</p></div>
+        <div class="tierc hot"><span class="mono">Trío · 7 packs armados</span><span class="big2">Ahorras Bs 50</span><h3>vs. comprar los pares sueltos</h3><p>Tres pares de tu talla, listos pa' pedir. Desde Bs 790.</p></div>
+      </div>
+      <p class="note" style="margin-top:14px">Los packs se venden solo como están armados abajo, con su precio fijo. El precio parte del precio publicado de cada par y ya incluye el descuento del pack: los Tier A no bajan y ningún par baja de Bs 230.</p>
+      <div class="sec-head" style="margin:34px 0 0"><h3 style="margin:0;font-family:var(--display);font-weight:400;font-size:clamp(24px,3vw,32px)">Packs armados por talla</h3><p>Dúos y tríos de la misma talla, listos pa' pedir. Uno pa' salir, uno pa' moverte y uno pa' variar.</p></div>
+      <div class="packs" id="packs-grid"></div>
+    </div>
+  </section>
+
+  <section id="destacados">
+    <div class="wrap">
+      <div class="sec-head"><h2 class="ribbon">Los que vuelan</h2><p>Tres pares que definen este drop. Si es tu talla, no lo pienses mucho.</p></div>
+      <div class="feat" id="feat"></div>
+    </div>
+  </section>
+
+  <section id="tienda">
+    <div class="wrap">
+      <div class="sec-head"><h2 class="ribbon">La tienda</h2><p>Filtra por tu talla US, el estilo que buscas o el color que te gusta.</p></div>
+      <div class="filters" id="filters">
+        <button class="ftog" id="ftog" type="button" aria-expanded="true" aria-controls="frows"><span class="mono">Filtros</span><span id="fsum"></span><span class="ar" aria-hidden="true">▴</span></button>
+        <div class="frows" id="frows">
+        <div class="row"><span class="lbl mono">Talla</span><div class="chips" id="sizes"></div></div>
+        <div class="row"><span class="lbl mono">Estilo</span><div class="chips" id="styles"></div></div>
+        <div class="row"><span class="lbl mono">Color</span><div class="chips" id="colors"></div></div>
+        <div class="row"><span class="lbl mono">Marca</span><div class="chips" id="brands"></div></div>
+        </div>
+      </div>
+      <div class="sec-head" style="margin:16px 0 14px;align-items:center">
+        <p class="count" id="count" style="margin:0"></p>
+        <label class="mono" for="sort" style="display:flex;gap:8px;align-items:center">Orden
+          <select class="chip" id="sort"><option value="feat">Destacados</option><option value="lo">Precio: menor a mayor</option><option value="hi">Precio: mayor a menor</option></select>
+        </label>
+      </div>
+      <div class="grid" id="grid"></div>
+    </div>
+  </section>
+
+  <section id="ropa">
+    <div class="wrap">
+      <div class="sec-head"><h2 class="ribbon">La ropa</h2><p>Ropa Bershka nueva, con etiqueta: poleras, camisas, abrigos y denim. Una pieza por talla: si es la tuya, no la dejes pasar.</p></div>
+      <div class="filters rfilters" id="rfilters">
+        <button class="ftog" id="rftog" type="button" aria-expanded="true" aria-controls="rfrows"><span class="mono">Filtros</span><span class="fsum" id="rfsum"></span><span class="ar" aria-hidden="true">▴</span></button>
+        <div class="frows" id="rfrows">
+        <div class="row"><span class="lbl mono">Tipo</span><div class="chips" id="rcats"></div></div>
+        <div class="row"><span class="lbl mono">Talla</span><div class="chips" id="rsizes"></div></div>
+        <div class="row"><span class="lbl mono">Estilo</span><div class="chips" id="rstyles"></div></div>
+        </div>
+      </div>
+      <p class="count" id="rcount"></p>
+      <div class="grid" id="rgrid"></div>
+    </div>
+  </section>
+
+  <section id="como-comprar">
+    <div class="wrap">
+      <div class="sec-head"><h2 class="ribbon">Cómo comprar</h2><p>Reserva con QR y recoge en nuestro punto.</p></div>
+      <div class="steps">
+        <div class="step"><div class="n">1</div><h3>Elige tu par</h3><p>Toca <b>Lo quiero</b> y se abre WhatsApp con el código y el precio ya escritos.</p></div>
+        <div class="step"><div class="n">2</div><h3>Resérvalo con QR</h3><p>Te confirmamos que sigue disponible. Pagas la reserva con el QR de abajo, nos mandas el comprobante y el par queda a tu nombre.</p><a class="btn" href="https://maps.app.goo.gl/7cwdgA1nS5obiRz67" target="_blank" rel="noopener" style="justify-self:start;margin-top:4px">📍 Ver ubicación</a></div>
+        <div class="step"><div class="n">3</div><h3>Recógelo</h3><p>Nos vemos en el punto a la hora acordada. Lo revisas, te lo pruebas y pagas el saldo con QR o efectivo. ¿Quieres más fotos o un video? Pídelo por WhatsApp.</p></div>
+      </div>
+      <div class="qr" id="reservar">
+        <img src="img/qr-reserva.png" alt="Código QR de pago de RAMAZON, banco Mercantil Santa Cruz">
+        <div>
+          <h3>Reserva con QR</h3>
+          <ol>
+            <li><b>Escríbenos</b> con el código del par (ej. #037) para confirmar que sigue libre.</li>
+            <li><b>Escanea el QR</b> desde la app de tu banco y paga la reserva.</li>
+            <li><b>Manda el comprobante</b> por WhatsApp. Sin comprobante no hay reserva.</li>
+          </ol>
+          <div style="display:flex;gap:10px;flex-wrap:wrap">
+            <a class="btn wa" id="qr-wa" href="#" target="_blank" rel="noopener">Mandar comprobante</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <p class="big">Ramazon</p>
+      <p class="mono" style="margin:6px 0 0">Thrift de tenis y ropa · Santa Cruz, Bolivia · 1 pieza por modelo</p>
+    </div>
+    <div style="display:grid;gap:8px;justify-items:start">
+      <span class="mono">Pedidos por WhatsApp</span>
+      <span class="num" id="wa-text"></span>
+      <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="btn wa" id="foot-wa" href="#" target="_blank" rel="noopener">Abrir chat</a><a class="btn" href="https://maps.app.goo.gl/7cwdgA1nS5obiRz67" target="_blank" rel="noopener">📍 Ubicación</a></div>
+    </div>
+  </div>
+</footer>
+
+<div class="pbar" id="pbar" hidden>
+  <div><div class="t1" id="pb-1"></div><div class="t2" id="pb-2"></div></div>
+  <div class="acts"><button class="btn x" id="pb-clear">Vaciar</button><a class="btn wa" id="pb-wa" href="#" target="_blank" rel="noopener">Pedir pack</a></div>
+</div>
+
+<dialog id="dlg" aria-labelledby="m-title">
+  <button class="close" id="m-close" aria-label="Cerrar">×</button>
+  <div class="m">
+    <div class="m-media"><div class="m-track" id="m-track"></div><div class="m-nav" id="m-nav"></div></div>
+    <div class="m-body">
+      <div class="mono" id="m-brand" style="color:var(--ink2)"></div>
+      <h3 id="m-title"></h3>
+      <div class="m-top"><span class="m-price" id="m-price"></span><span class="mono" id="m-size"></span></div>
+      <div class="vibe" id="m-vibe"></div>
+      <ul class="feats" id="m-feats"></ul>
+      <dl class="spec" id="m-spec"></dl>
+      <a class="btn wa" id="m-wa" href="#" target="_blank" rel="noopener" style="padding:14px">Lo quiero · WhatsApp</a>
+      <button class="addpk" id="m-pk" style="padding:11px">＋ Agregar al pack</button>
+      <p class="note">Si el botón no abre WhatsApp, escríbenos al <span class="num" id="m-num" style="font-size:14px"></span> con el código <b id="m-code"></b>.</p>
+    </div>
+  </div>
+</dialog>
+
+<script>
+/* ====== EDITA AQUÍ ====== */
+const WHATSAPP = "59167187879";
+const VENDIDOS = ["PROD-009", "PROD-011", "PROD-015", "PROD-021", "PROD-033", "PROD-048", "ROPA-041", "ROPA-046"];                                   // ej: ["PROD-019"]
+const DESTACADOS = ["PROD-037","PROD-043","PROD-025"];
+const UBICACION = "https://maps.app.goo.gl/7cwdgA1nS5obiRz67";
+const PROMO_FIN = "2026-10-20T23:59:59-04:00";          // ya no se usa: el precio LIVE no vence
+/* ======================== */
+const P = [{"id": "PROD-001", "brand": "Adidas", "model": "Adizero Aruku", "cw": "White Tint / Mint", "style": "Running", "color": "Blanco", "price": 250, "cond": "Usado – como nuevo", "tech": ["Malla transpirable con overlays sintéticos", "Lightstrike", "Goma con agarre de running", "Cordones + tirador en el talón"], "feats": ["Look de running dosmilero con comodidad actual", "Acentos menta, limpio y fresco", "Mínimas marcas en suela, arrugas leves de flexión"], "vibe": "estos adizero aruku están nítidos, pana. look de correr de los 2000s pero con la comodidad de ahorita gracias al lightstrike. el menta le da el toque fresh. van con shorts o joggers claros. veredicto: joyita pa' rockear diario 🧼", "size": "6", "imgs": ["img/PROD-001-pro-2.jpg", "img/PROD-001-pro-1.jpg", "img/PROD-001-pro-3.jpg"], "pro": true, "eu": "38.5", "cm": "24", "floor": 230, "tier": "D", "rev": 230}, {"id": "PROD-002", "brand": "On", "model": "Cloudmonster", "cw": "All Black", "style": "Running", "color": "Negro", "price": 400, "cond": "Usado – como nuevo", "tech": ["Malla técnica negra mate", "CloudTec de máxima amortiguación", "Pods CloudTec de goma", "Cordones con motas reflectantes"], "feats": ["La amortiguación más grande de On", "Gráfico lateral reflectante plateado", "Polvo leve en los pods y arrugas de flexión"], "vibe": "este cloudmonster negro es puro flow técnico. ideal pal que camina harto o quiere comodidad extrema 🖤 va con jogger o jean corto. veredicto: se va rápido, si eres 7 us no lo pienses", "size": "7", "imgs": ["img/PROD-002-pro-1.jpg", "img/PROD-002-pro-2.jpg", "img/PROD-002-pro-3.jpg"], "pro": true, "eu": "40", "cm": "25", "floor": 350, "tier": "A", "rev": 330}, {"id": "PROD-003", "brand": "Adidas", "model": "Gazelle Platform", "cw": "Burgundy / Yellow", "style": "Lifestyle", "color": "Rojo", "price": 330, "cond": "Usado – como nuevo", "tech": ["Gamuza color vino", "Plataforma de goma", "Goma blanca exagerada", "Cordones clásicos"], "feats": ["Tres rayas y talón amarillo en contraste", "Logo GAZELLE dorado", "Punteras y suela casi impecables"], "vibe": "las plataformas están on fire y estas gazelle burgundy son otro nivel 🔥 la gamuza vino con amarillo resalta harto y la suela te da altura. veredicto: toque retro-chic pa' cualquier outfit", "size": "7.5", "imgs": ["img/PROD-003-pro-2.jpg", "img/PROD-003-pro-1.jpg", "img/PROD-003-pro-3.jpg"], "pro": true, "eu": "40.5", "cm": "25.5", "floor": 300, "tier": "B", "rev": 280}, {"id": "PROD-004", "brand": "Nike", "model": "Air Max (Moto)", "cw": "Black / White", "style": "Running", "color": "Negro", "price": 280, "cond": "Usado – como nuevo", "tech": ["Malla transpirable con overlays", "Unidad Air Max visible en talón", "Goma negra", "Cordones + tirador en talón"], "feats": ["Air visible en el talón", "Negro con blanco, combina con todo", "Marcas mínimas en la mediasuela"], "vibe": "air max negro de los que no fallan. amortigua rico y el blanco le da contraste justo. va con jogger negro o jean oscuro y listo. veredicto: caballito de batalla pa' todos los días", "size": "8.5", "imgs": ["img/PROD-004-pro-3.jpg", "img/PROD-004-pro-1.jpg", "img/PROD-004-pro-2.jpg"], "pro": true, "eu": "42", "cm": "26.5", "floor": 250, "tier": "C", "rev": 230}, {"id": "PROD-005", "brand": "New Balance", "model": "530", "cw": "White / Silver Metallic", "style": "Lifestyle", "color": "Blanco", "price": 330, "cond": "Usado – como nuevo", "tech": ["Malla con overlays plateados", "ABZORB en talón", "Goma negra de tracción", "Cordones"], "feats": ["El dad shoe retro de los 2000s", "Blanco/plata súper clean", "Arrugas leves de flexión y marcas normales en suela"], "vibe": "estos nb 530 son el básico definitivo, puro dad shoe energy 👟 blanco/plata bien clean y el abzorb es otro nivel. van con jean ancho, short o jogger. veredicto: se van rápido, si eres 10 us no lo pienses", "size": "10", "imgs": ["img/PROD-005-pro-1.jpg", "img/PROD-005-pro-2.jpg", "img/PROD-005-pro-3.jpg"], "pro": true, "eu": "44", "cm": "28", "floor": 300, "tier": "B", "rev": 280}, {"id": "PROD-006", "brand": "Nike", "model": "SB Dunk Low x Jarritos (custom)", "cw": "Pink / Green / White", "style": "Skate", "color": "Rosa", "price": 400, "cond": "Usado – como nuevo", "tech": ["Cuero blanco + arpillera rosa", "Cupsole con Zoom Air (SB)", "Goma tricolor, patrón circular", "Cordones gruesos tipo cuerda + lengüeta acolchada"], "feats": ["Swoosh de lona verde", "Cántaro Jarritos bordado en el talón", "Pieza custom, no hay otro igual"], "vibe": "estos no son unos dunks comunes, son pieza de colección con un custom brutal 🧃🔥 rosa sandía con verde, llamativo y fresco. van con baggy jeans o cargo neutro pa' que el par sea el protagonista. veredicto: pieza única, si calzas 8.5 asegúralos", "size": "8.5", "imgs": ["img/PROD-006-pro-1.jpg", "img/PROD-006-pro-2.jpg", "img/PROD-006-pro-3.jpg"], "pro": true, "eu": "42", "cm": "26.5", "floor": 350, "tier": "A", "rev": 330}, {"id": "PROD-007", "brand": "Nike", "model": "Air Max 2015", "cw": "Black / White", "style": "Running", "color": "Negro", "price": 280, "cond": "Usado – como nuevo", "tech": ["Engineered mesh", "Max Air 360 completa", "Goma con ranuras de flexión profundas", "Cordones + lengüeta acolchada"], "feats": ["Swoosh invertido en el talón", "Cámara de aire 100% intacta", "Roces mínimos en la mediasuela"], "vibe": "estos air max 2015 son una joya adelantada a su época ⚡ el swoosh invertido les da toque futurista y la cámara completa es caminar en nubes. van con joggers, cargo o jean oscuro. veredicto: silueta icónica, si eres 8 us no lo dejes pasar", "size": "8", "imgs": ["img/PROD-007-pro-3.jpg", "img/PROD-007-pro-1.jpg", "img/PROD-007-pro-2.jpg"], "pro": true, "eu": "41", "cm": "26", "floor": 250, "tier": "C", "rev": 230}, {"id": "PROD-008", "brand": "New Balance", "model": "FuelCell SC Elite v3", "cw": "White / Volt", "style": "Running", "color": "Blanco", "price": 330, "cond": "Usado – como nuevo", "tech": ["Engineered mesh ultraligera", "FuelCell de máxima reactividad", "Goma en zonas de desgaste", "Cordones de competición"], "feats": ["Placa de carbono Energy Arc", "Geometría rocker pa' zancada eficiente", "Marcas leves en la espuma blanca"], "vibe": "estos sc elite v3 son el end-game de los super shoes 🔥 volt agresivo que dice 'voy rápido' y el energy arc te empuja en cada zancada. veredicto: si quieres bajar tus tiempos y eres 8 us, no lo pienses", "size": "8", "imgs": ["img/PROD-008-pro-3.jpg", "img/PROD-008-pro-1.jpg", "img/PROD-008-pro-2.jpg"], "pro": true, "eu": "41", "cm": "26", "floor": 300, "tier": "B", "rev": 280}, {"id": "PROD-009", "brand": "Adidas", "model": "Adizero Adios Pro 4", "cw": "Black / White", "style": "Running", "color": "Negro", "price": 330, "cond": "Usado – como nuevo", "tech": ["Engineered mesh ultraligera", "Lightstrike Pro", "Goma de tracción para ritmos altos", "Cordones de competición"], "feats": ["Tres rayas gigantes en contraste", "Rocker pa' zancada eficiente", "Roces mínimos en la espuma"], "vibe": "estos adios pro 4 son una bestia pa' días de carrera ⚡ logos gigantes, look de pura velocidad y el lightstrike pro te devuelve toda la energía. veredicto: pluma de competición, si eres 10 us vuelan", "size": "10", "imgs": ["img/PROD-009-pro-1.jpg", "img/PROD-009-pro-2.jpg", "img/PROD-009-pro-3.jpg"], "pro": true, "eu": "44", "cm": "28", "floor": 300, "tier": "B", "rev": 280}, {"id": "PROD-010", "brand": "Adidas", "model": "Campus 00s", "cw": "Wonder Beige / Light Pink / Gum", "style": "Lifestyle", "color": "Crema", "price": 330, "cond": "Usado – como nuevo", "tech": ["Gamuza", "Cupsole de goma", "Goma gum", "Cordones gruesos"], "feats": ["Silueta skate de los 2000s, bien chunky", "Beige con rosa suave, fácil de combinar", "Roces mínimos en la gamuza"], "vibe": "campus 00s en beige con rosa, puro soft vibe 🍑 la silueta gordita está de moda y la gamuza se ve cara. va con baggy jeans claros o falda y medias blancas. veredicto: básico con personalidad, si eres 8.5 es tuyo", "size": "8.5", "imgs": ["img/PROD-010-pro-1.jpg", "img/PROD-010-pro-2.jpg", "img/PROD-010-pro-3.jpg"], "pro": true, "eu": "42", "cm": "26.5", "floor": 300, "tier": "B", "rev": 280}, {"id": "PROD-011", "brand": "New Balance", "model": "FuelCell SC Elite v3", "cw": "Black / White", "style": "Running", "color": "Negro", "price": 330, "cond": "Usado – como nuevo", "tech": ["Malla técnica ligera", "FuelCell doble densidad", "Goma en zonas de alto desgaste", "Cordones de competición"], "feats": ["Placa de carbono Energy Arc", "Pensado pa' maratón y fondo", "Suciedad leve en la espuma blanca"], "vibe": "bro, estas sc elite v3 son naves espaciales 🚀 suela gorda que parece colchón pero te escupe pa' adelante. tienen unos km encima pero están enteras. veredicto: velocidad pura, si eres 8.5 y corres, son tuyas", "size": "8.5", "imgs": ["img/PROD-011-pro-1.jpg", "img/PROD-011-pro-2.jpg", "img/PROD-011-pro-3.jpg"], "pro": true, "eu": "42", "cm": "26.5", "floor": 300, "tier": "B", "rev": 280}, {"id": "PROD-012", "brand": "Nike", "model": "Air Max 2013", "cw": "White / Punch Peach", "style": "Running", "color": "Blanco", "price": 280, "cond": "Usado – como nuevo", "tech": ["Malla Hyperfuse con degradado", "Max Air 360 translúcida naranja", "Goma de running", "Cordones + collarín acolchado"], "feats": ["Degradado blanco a durazno", "Burbuja completa sin pinchaduras", "Arruga natural de flexión en empeine"], "vibe": "mano, este 2013 es pura vibra nostálgica del running dosmilero con ese degradado peach que resalta donde lo pares 🔥 queda con shorts anchos o parachute oscuro. veredicto: grailsito cómodo, si calzas 8 us no lo pienses", "size": "8", "imgs": ["img/PROD-012-pro-1.jpg", "img/PROD-012-pro-2.jpg", "img/PROD-012-pro-3.jpg"], "pro": true, "eu": "41", "cm": "26", "floor": 250, "tier": "C", "rev": 230}, {"id": "PROD-013", "brand": "Adidas", "model": "Forum 84 Low", "cw": "Cream / Maroon / Black", "style": "Lifestyle", "color": "Crema", "price": 330, "cond": "Usado – como nuevo", "tech": ["Cuero granulado + gamuza crema", "Cupsole de goma", "Goma crema vintage", "Cordones + correa de velcro al tobillo"], "feats": ["Silueta de básquet de los 80s", "Rayas granate y negro", "Arruga natural en empeine, suela limpia"], "vibe": "este forum 84 es pura clase retro, cuero y suela crema de otro nivel 🏀 va con jean ancho claro y polera oversize blanca. veredicto: grailsito vintage, si calzas 9.5 este es tu par", "size": "9.5", "imgs": ["img/PROD-013-pro-2.jpg", "img/PROD-013-pro-1.jpg", "img/PROD-013-pro-3.jpg"], "pro": true, "eu": "43", "cm": "27.5", "floor": 300, "tier": "B", "rev": 280}, {"id": "PROD-014", "brand": "New Balance", "model": "FuelCell SC Elite v3", "cw": "Black / Dark Grey", "style": "Running", "color": "Negro", "price": 330, "cond": "Usado – como nuevo", "tech": ["Malla FantomFit ultraligera", "FuelCell doble densidad", "Goma de competición", "Cordones de competición"], "feats": ["Placa de carbono Energy Arc con canal hueco", "Rocker agresivo", "Arruga leve en la mediasuela"], "vibe": "esto no es pa' pasear, es un fórmula 1 pa' tus pies 🚀 placa de carbono y fuelcell te botan pa' adelante. all black criminal con shorts técnicos. veredicto: misil de asfalto si calzas 8 us", "size": "8", "imgs": ["img/PROD-014-pro-1.jpg", "img/PROD-014-pro-2.jpg", "img/PROD-014-pro-3.jpg"], "pro": true, "eu": "41", "cm": "26", "floor": 300, "tier": "B", "rev": 280}, {"id": "PROD-015", "brand": "Oasics", "model": "Gel-Nimbus 25", "cw": "Black / Silver", "style": "Running", "color": "Negro", "price": 280, "cond": "Usado – como nuevo", "tech": ["Malla técnica suave", "FF Blast+ Eco + Pure Gel en talón", "Goma de fondo", "Cordones"], "feats": ["Máxima amortiguación pa' largas distancias", "Detalles plateados reflectantes", "Arrugas leves en mediasuela"], "vibe": "la nimbus 25 es el colchón que necesitas pa' correr o estar todo el día de pie ☁️ en negro combina con todo tu clóset. veredicto: comodidad pura y dura, si eres 8.5 es tuya", "size": "8.5", "imgs": ["img/PROD-015-pro-1.jpg", "img/PROD-015-pro-2.jpg", "img/PROD-015-pro-3.jpg"], "pro": true, "eu": "42", "cm": "26.5", "floor": 250, "tier": "C", "rev": 230}, {"id": "PROD-016", "brand": "Nike", "model": "Air Max (trail)", "cw": "Bone / Cyan", "style": "Lifestyle", "color": "Crema", "price": 250, "cond": "Usado – como nuevo", "tech": ["Malla + overlays sintéticos", "Air Max visible en talón", "Goma de tracción agresiva", "Cordones"], "feats": ["Onda utilitaria / gorpcore", "Crema con acentos cian", "Desgaste leve en talón, cordones algo deshilachados"], "vibe": "estas zapas tienen su flow con esa suela tocha y onda utilitaria 🏔️ el crema combina fácil y el uso les da carácter. veredicto: pa' darle uso diario sin miedo", "size": "10", "imgs": ["img/PROD-016-pro-3.jpg", "img/PROD-016-pro-1.jpg", "img/PROD-016-pro-2.jpg"], "pro": true, "eu": "44", "cm": "28", "floor": 230, "tier": "D", "rev": 230}, {"id": "PROD-017", "brand": "Nike", "model": "Air Force 1 Premium", "cw": "Corduroy / Suede Vintage", "style": "Lifestyle", "color": "Gris", "price": 330, "cond": "Usado – como nuevo", "tech": ["Gamuza gris + pana beige", "Air encapsulado", "Goma translúcida ahumada", "Cordones + ojales metálicos"], "feats": ["Mezcla de texturas pana y gamuza", "Detalles marrón oscuro", "Marcas leves en la entresuela translúcida"], "vibe": "este air force 1 pisa fuerte sin hacer ruido, la pana con gamuza se ve increíble en persona 🤎 combínalo con cargo ancho o jean relajado. veredicto: joya sutil pa' el día a día", "size": "9.5", "imgs": ["img/PROD-017-pro-3.jpg", "img/PROD-017-pro-1.jpg", "img/PROD-017-pro-2.jpg"], "pro": true, "eu": "43", "cm": "27.5", "floor": 300, "tier": "B", "rev": 280}, {"id": "PROD-018", "brand": "Nike", "model": "Air Force 1 '07 LV8 Hearts", "cw": "Pink / White", "style": "Lifestyle", "color": "Rosa", "price": 330, "cond": "Usado – como nuevo", "tech": ["Cuero blanco + gamuza rosa", "Air encapsulado", "Goma clásica AF1", "Cordones"], "feats": ["Perforaciones en forma de corazón en la puntera", "Swoosh rojo en contraste", "Suela con marcas mínimas"], "vibe": "este par trae vibra súper fresca y aesthetic, los corazones en la puntera le dan el toque exacto 💖 ideal con pantalones claros o streetwear suave. veredicto: joya limpia que se roba miradas", "size": "8", "imgs": ["img/PROD-018-pro-2.jpg", "img/PROD-018-pro-1.jpg"], "pro": true, "eu": "41", "cm": "26", "floor": 300, "tier": "B", "rev": 280}, {"id": "PROD-019", "brand": "Jordan", "model": "Air Jordan 4 Retro", "cw": "Black Cat", "style": "Básquet", "color": "Negro", "price": 400, "cond": "Usado – como nuevo", "tech": ["Nobuk negro + malla plástica lateral", "PU con Air-Sole en talón", "Goma sólida en espiga", "Cordones + alas de soporte"], "feats": ["Silueta de Tinker Hatfield (1989)", "Jumpman gris metalizado", "Estructura rígida original, uso mínimo"], "vibe": "este jordan 4 black cat es puro misterio, todo negro y no pide permiso 🖤 va con jogger gris o jean ancho y ya estás. veredicto: se va primero, si eres 8 us no lo pienses", "size": "8", "imgs": ["img/PROD-019-pro-1.jpg"], "pro": true, "eu": "41", "cm": "26", "floor": 350, "tier": "A", "rev": 330}, {"id": "PROD-020", "brand": "Adidas", "model": "Samba OG", "cw": "Navy / White / Gum", "style": "Lifestyle", "color": "Azul", "price": 330, "cond": "Usado – buena condición", "tech": ["Cuero azul marino + T de gamuza", "Cupsole de goma", "Goma gum de perfil bajo", "Cordones planos azul marino"], "feats": ["Silueta de fútbol sala hecha streetwear", "Logo dorado en la lengüeta", "Uso leve en la puntera"], "vibe": "samba azul marino, el clásico que rompe con el blanco y negro de siempre. uso leve que solo lo hace ver mejor. combina con todo. veredicto: indispensable si calzas 7.5", "size": "7.5", "imgs": ["img/PROD-020-pro-1.jpg"], "pro": true, "eu": "40.5", "cm": "25.5", "floor": 300, "tier": "B", "rev": 280}, {"id": "PROD-021", "brand": "Nike", "model": "Mercurial Superfly (TF)", "cw": "Mint Foam / Electric Pink", "style": "Fútbol", "color": "Verde", "price": 250, "cond": "Usado – bueno", "tech": ["Sintético texturizado + cuello Dynamic Fit", "Plantilla acolchada", "Multitaco de goma (césped sintético)", "Cordones"], "feats": ["Pensado pa' velocidad en cancha reducida", "Swoosh rosa eléctrico", "Marcas de uso en la suela, estructura intacta"], "vibe": "estos mercurial menta con rosa brillan en cualquier canchita ⚽ se nota que ya pisaron cancha pero la suela aguanta guerra. veredicto: si quieres destacar los domingos, este es", "size": "8.5", "imgs": ["img/PROD-021-pro.jpg"], "eu": "42", "cm": "26.5", "pro": true, "floor": 230, "tier": "D", "rev": 230}, {"id": "PROD-022", "brand": "Adidas", "model": "Campus 00s", "cw": "Grey / Cloud White", "style": "Lifestyle", "color": "Gris", "price": 330, "cond": "", "tech": ["Gamuza gris", "Cupsole de goma", "Goma blanca", "Cordones gruesos"], "feats": ["Silueta chunky de los 2000s", "Gris claro que va con todo", "Fácil de combinar con jeans, cargo o joggers"], "vibe": "campus 00s en gris nube, el básico que ves en todos los fits buenos ☁️ va con baggy gris o jean azul lavado. veredicto: seguro de estilo, si eres 7.5 no dudes", "size": "7.5", "imgs": ["img/PROD-022-pro.jpg"], "eu": "40.5", "cm": "25.5", "pro": true, "floor": 300, "tier": "B", "rev": 280}, {"id": "PROD-023", "brand": "On", "model": "Cloudmonster", "cw": "White / Frost", "style": "Running", "color": "Blanco", "price": 400, "cond": "", "tech": ["Malla técnica blanca", "CloudTec de máxima amortiguación", "Pods CloudTec", "Cordones con acento rojo"], "feats": ["Logo On gigante en el lateral", "Suela de nubes que no pasa desapercibida", "Pods grises, fácil de limpiar"], "vibe": "cloudmonster blanco, look de laboratorio suizo 🧪 amortigua como colchón y el logo gigante habla solo. va con shorts o jogger claro. veredicto: comodidad premium, si eres 8 us va", "size": "8", "imgs": ["img/PROD-023-pro.jpg"], "eu": "41", "cm": "26", "pro": true, "floor": 350, "tier": "A", "rev": 330}, {"id": "PROD-024", "brand": "Nike", "model": "Vomero", "cw": "Black / White", "style": "Running", "color": "Negro", "price": 280, "cond": "", "tech": ["Malla técnica", "Espuma ZoomX / React", "Goma de running", "Cordones"], "feats": ["La línea más acolchada de Nike running", "Negro con swoosh blanco", "Pa' correr o caminar todo el día sin sufrir"], "vibe": "vomero negro, el colchón serio de nike 🖤 pa' caminar todo el día o sumar km sin sufrir. veredicto: comodidad que no se ve aburrida, si eres 9.5 anótate", "size": "9.5", "imgs": ["img/PROD-024-pro.jpg"], "eu": "43", "cm": "27.5", "pro": true, "floor": 250, "tier": "C", "rev": 230}, {"id": "PROD-025", "brand": "Nike", "model": "Air More Uptempo", "cw": "Pastel Multicolor", "style": "Básquet", "color": "Multicolor", "price": 330, "cond": "", "tech": ["Cuero con letras AIR gigantes", "Air visible en toda la suela", "Goma de básquet", "Cordones + tirador"], "feats": ["El icono de los 90s de Scottie Pippen", "Colorway pastel que no pasa piola", "Silueta chunky, pisa fuerte"], "vibe": "uptempo pastel, las letras AIR gritan y los colores se roban la foto 🍬 van con todo neutro pa' que brillen. veredicto: pieza statement, si eres 7 us no lo pienses", "size": "7", "imgs": ["img/PROD-025-pro.jpg"], "eu": "40", "cm": "25", "pro": true, "floor": 300, "tier": "B", "rev": 280}, {"id": "PROD-026", "brand": "Nike", "model": "Air Force 1 Low", "cw": "West Indies", "style": "Lifestyle", "color": "Blanco", "price": 330, "cond": "", "tech": ["Cuero blanco", "Air encapsulado", "Goma amarilla", "Cordones + parche especial en el talón"], "feats": ["Colorway West Indies con suela amarilla", "Parche de colores en el talón", "Detalle poco común en AF1"], "vibe": "af1 west indies, el blanco de siempre pero con la suela amarilla y parche que nadie más tiene 💛 va con jean claro o short. veredicto: af1 con historia, si eres 8 us va", "size": "8", "imgs": ["img/PROD-026-pro.jpg"], "eu": "41", "cm": "26", "pro": true, "floor": 300, "tier": "B", "rev": 280}, {"id": "PROD-027", "brand": "Nike", "model": "Total 90 III", "cw": "Black / White / Gum", "style": "Fútbol", "color": "Negro", "price": 280, "cond": "", "tech": ["Cuero negro", "Plantilla acolchada", "Goma gum (indoor/urbano)", "Cordones"], "feats": ["El logo 90 que marcó una era del fútbol", "Swoosh blanco en contraste", "Retro que hoy se usa en la calle"], "vibe": "total 90, el que usaban todos los cracks de los 2000s ⚽ hoy es pura vibra blokecore. va con jean recto y camiseta retro. veredicto: nostalgia que se usa, si eres 8 us agárralo", "size": "8", "imgs": ["img/PROD-027-pro.jpg"], "eu": "41", "cm": "26", "pro": true, "floor": 250, "tier": "C", "rev": 230}, {"id": "PROD-028", "brand": "Under Armour", "model": "Training", "cw": "Black / Purple", "style": "Running", "color": "Negro", "price": 250, "cond": "", "tech": ["Malla técnica + correa de ajuste", "Espuma con acento morado", "Goma blanca", "Cordones + correa"], "feats": ["Correa extra de sujeción en el empeine", "Morado y verde sobre negro", "Pa' correr o caminar todo el día sin sufrir"], "vibe": "under armour negro con morado, pinta de gym y cancha 🏋️ la correa te deja el pie firme. veredicto: pa' entrenar sin cuidarlo tanto, si eres 8 us sirve", "size": "8", "imgs": ["img/PROD-028-pro.jpg"], "eu": "41", "cm": "26", "pro": true, "floor": 230, "tier": "D", "rev": 230}, {"id": "PROD-029", "brand": "Nike", "model": "Pegasus", "cw": "Sail / Teal / Pink", "style": "Running", "color": "Crema", "price": 280, "cond": "", "tech": ["Malla técnica", "Espuma React / Zoom Air", "Goma de running", "Cordones"], "feats": ["Swoosh teal con degradado rosa", "Colores de verano, bien fresh", "Pa' correr o caminar todo el día sin sufrir"], "vibe": "este nike tiene colores de heladería 🍦 crema, teal y rosa, fresco pa' correr o pa' salir. veredicto: running con estilo, si eres 8 us va", "size": "8", "imgs": ["img/PROD-029-pro.jpg"], "eu": "41", "cm": "26", "pro": true, "floor": 250, "tier": "C", "rev": 230}, {"id": "PROD-030", "brand": "Oasics", "model": "Gel-Cumulus", "cw": "Grey / White", "style": "Running", "color": "Gris", "price": 280, "cond": "", "tech": ["Malla técnica gris", "Gel + espuma FF", "Goma de running", "Cordones"], "feats": ["Amortiguación de fondo, comodidad diaria", "Gris que no se ensucia a la vista", "Pa' correr o caminar todo el día sin sufrir"], "vibe": "gris tranqui, de los que usas todos los días sin pensarlo ☁️ amortigua bien pa' caminar harto. veredicto: confort sin drama, si eres 9.5 va", "size": "9.5", "imgs": ["img/PROD-030-pro.jpg"], "eu": "43", "cm": "27.5", "pro": true, "floor": 250, "tier": "C", "rev": 230}, {"id": "PROD-031", "brand": "Nike", "model": "SB Dunk Low", "cw": "Red / Gold / White", "style": "Skate", "color": "Rojo", "price": 400, "cond": "", "tech": ["Cuero / gamuza", "Cupsole con Zoom Air (SB)", "Goma de skate", "Cordones gruesos + lengüeta acolchada"], "feats": ["Rojo con swoosh dorado, bien colegial", "Lengüeta gordita típica SB", "Suela plana con buen agarre y silueta ancha"], "vibe": "sb dunk rojo con dorado, vibra de equipo universitario gringo 🔴🟡 va con jean ancho y hoodie. veredicto: dunk con carácter, si eres 10 us no lo sueltes", "size": "10", "imgs": ["img/PROD-031-pro.jpg"], "eu": "44", "cm": "28", "pro": true, "floor": 350, "tier": "A", "rev": 330}, {"id": "PROD-032", "brand": "Nike", "model": "Air Force 1 Low", "cw": "Sail / Brown", "style": "Lifestyle", "color": "Crema", "price": 330, "cond": "", "tech": ["Cuero sail", "Air encapsulado", "Goma crema", "Cordones marrones"], "feats": ["Tono hueso con detalles marrones", "AF1 que no se ve 'recién salido de la caja'", "Estilo vintage"], "vibe": "af1 en hueso con marrón, pinta vintage que se ve cara 🤎 va con cargo beige o jean crudo. veredicto: el af1 pa' los que ya se aburrieron del blanco, 8 us", "size": "8", "imgs": ["img/PROD-032-pro.jpg"], "eu": "41", "cm": "26", "pro": true, "floor": 300, "tier": "B", "rev": 280}, {"id": "PROD-033", "brand": "Adidas", "model": "Forum Low", "cw": "White / Gold", "style": "Lifestyle", "color": "Blanco", "price": 330, "cond": "", "tech": ["Cuero blanco", "Cupsole de goma", "Goma crema", "Cordones + correa al tobillo"], "feats": ["Trébol dorado en el talón", "Silueta de básquet de los 80s", "Blanco limpio con toque dorado"], "vibe": "forum blanco con dorado, lujo tranqui 🤍 va con todo, sobre todo con jean ancho y polera blanca. veredicto: básico elevado, si eres 8 us va", "size": "8", "imgs": ["img/PROD-033-pro.jpg"], "eu": "41", "cm": "26", "pro": true, "floor": 300, "tier": "B", "rev": 280}, {"id": "PROD-034", "brand": "Adidas", "model": "Adizero Boston 12", "cw": "Cyan / Blue", "style": "Running", "color": "Azul", "price": 280, "cond": "", "tech": ["Malla técnica ligera", "Lightstrike Pro + Lightstrike 2.0", "Goma Continental", "Cordones"], "feats": ["Energy Rods de fibra de vidrio", "Entrenador de ritmo, rápido y durable", "Cian eléctrico que se ve de lejos"], "vibe": "boston 12 cian, el entrenador de ritmo que usan los que corren en serio ⚡ rebote y durabilidad. veredicto: pa' tus series, si eres 7 us va", "size": "7", "imgs": ["img/PROD-034-pro.jpg"], "eu": "40", "cm": "25", "pro": true, "floor": 250, "tier": "C", "rev": 230}, {"id": "PROD-035", "brand": "Adidas", "model": "Samba", "cw": "Pink / Navy / Gum", "style": "Lifestyle", "color": "Rosa", "price": 330, "cond": "", "tech": ["Gamuza rosa", "Cupsole de goma", "Goma gum", "Cordones"], "feats": ["Rosa con rayas azul marino", "Suela gum clásica", "Uno de los colorways más buscados"], "vibe": "samba rosa con azul, el par que todos quieren en su feed 🌸 va con jean ancho o falda y medias. veredicto: se va rapidito, si eres 8 us apúrate", "size": "8", "imgs": ["img/PROD-035-pro.jpg"], "eu": "41", "cm": "26", "pro": true, "floor": 300, "tier": "B", "rev": 280}, {"id": "PROD-036", "brand": "Nike", "model": "Air Zoom Structure", "cw": "White / Black", "style": "Running", "color": "Blanco", "price": 280, "cond": "", "tech": ["Malla técnica", "Espuma React + Zoom Air", "Goma de running", "Cordones"], "feats": ["Soporte de estabilidad pa' pisada pronadora", "Blanco con swoosh plateado", "Pa' km diarios"], "vibe": "structure blanco, el nike que te sostiene el pie si pisas pa' adentro 👟 limpio y cómodo. veredicto: running serio y estable, si eres 8 us va", "size": "8", "imgs": ["img/PROD-036-pro.jpg"], "eu": "41", "cm": "26", "pro": true, "floor": 250, "tier": "C", "rev": 230}, {"id": "PROD-037", "brand": "Jordan", "model": "Air Jordan 4 Retro", "cw": "Military Black", "style": "Básquet", "color": "Blanco", "price": 400, "cond": "", "tech": ["Cuero blanco + gamuza gris", "PU con Air-Sole en talón", "Goma en espiga", "Cordones + alas de soporte"], "feats": ["Blanco, gris y negro: combina con todo", "Silueta de Tinker Hatfield (1989)", "Silueta alta con buen soporte de tobillo"], "vibe": "jordan 4 blanco con gris y negro, el retro que queda con cualquier fit 🤍🖤 jean claro o jogger gris y ya. veredicto: grail limpio, si eres 8 us no lo pienses", "size": "8", "imgs": ["img/PROD-037-pro.jpg"], "eu": "41", "cm": "26", "pro": true, "floor": 350, "tier": "A", "rev": 330}, {"id": "PROD-038", "brand": "Nike", "model": "Kyrie", "cw": "Multicolor / Teal", "style": "Básquet", "color": "Multicolor", "price": 280, "cond": "", "tech": ["Malla + sintético", "Zoom Air", "Goma curva de tracción", "Cordones"], "feats": ["Silueta de básquet de Kyrie Irving", "Colores pastel con suela teal", "Silueta alta con buen soporte de tobillo"], "vibe": "kyrie multicolor, pinta de acuarela con suela teal 🎨 pa' la cancha o pa' la calle. veredicto: statement de básquet, confirma tu talla y es tuyo", "size": "7.5", "imgs": ["img/PROD-038-pro.jpg"], "eu": "40.5", "cm": "25.5", "pro": true, "floor": 250, "tier": "C", "rev": 230}, {"id": "PROD-039", "brand": "Nike", "model": "Air Max", "cw": "Volt / Black", "style": "Lifestyle", "color": "Amarillo", "price": 280, "cond": "", "tech": ["Sintético con cubierta de cierre", "Air Max visible", "Goma", "Cierre/cremallera + cordones"], "feats": ["Cubierta con cremallera, look futurista", "Volt neón que se ve a una cuadra", "Fácil de combinar con jeans, cargo o joggers"], "vibe": "este air max volt con cierre parece sacado de un videojuego de los 2000s ⚡ pa' los que no le temen al color. veredicto: statement total, si eres 8 us atrévete", "size": "8", "imgs": ["img/PROD-039-pro.jpg"], "eu": "41", "cm": "26", "pro": true, "floor": 250, "tier": "C", "rev": 230}, {"id": "PROD-040", "brand": "Adidas", "model": "Adimatic", "cw": "Core Black / White", "style": "Skate", "color": "Negro", "price": 280, "cond": "", "tech": ["Gamuza negra", "Cupsole acolchada", "Goma blanca", "Cordones gruesos + lengüeta gordita"], "feats": ["Silueta skate de los 90s", "Tres rayas anchas en blanco", "Lengüeta inflada bien noventera"], "vibe": "adimatic negro, skate de los 90s que volvió con todo 🛹 va con baggy jeans y polera oversize. veredicto: vibra retro fácil, si eres 7 us va", "size": "7", "imgs": ["img/PROD-040-pro.jpg"], "eu": "40", "cm": "25", "pro": true, "floor": 250, "tier": "C", "rev": 230}, {"id": "PROD-041", "brand": "Adidas", "model": "Samba OG", "cw": "Green / Brown / Cream", "style": "Lifestyle", "color": "Verde", "price": 330, "cond": "", "tech": ["Cuero / gamuza verde y marrón", "Cupsole de goma", "Goma gum", "Cordones"], "feats": ["Colorway terroso poco común", "Rayas crema en contraste", "El clásico con otro color"], "vibe": "samba verde con marrón, colores de bosque que nadie más tiene 🌲 va con jean crudo o pantalón de tela. veredicto: samba pa' diferenciarte, si eres 7 us va", "size": "7", "imgs": ["img/PROD-041-pro.jpg"], "eu": "40", "cm": "25", "pro": true, "floor": 300, "tier": "B", "rev": 280}, {"id": "PROD-042", "brand": "On", "model": "Cloudmonster", "cw": "White / Blue", "style": "Running", "color": "Blanco", "price": 400, "cond": "", "tech": ["Malla técnica blanca", "CloudTec de máxima amortiguación", "Pods CloudTec", "Cordones reflectantes"], "feats": ["Detalles azul cobalto", "Suela de nubes con acento naranja", "Colchón suizo pa' todo el día"], "vibe": "cloudmonster blanco con azul, look técnico y limpio 💙 amortigua como pocos. va con shorts o jogger. veredicto: si eres 7 us y caminas harto, es tuyo", "size": "7", "imgs": ["img/PROD-042-pro.jpg"], "eu": "40", "cm": "25", "pro": true, "floor": 350, "tier": "A", "rev": 330}, {"id": "PROD-043", "brand": "Nike", "model": "Air Max Plus (TN)", "cw": "White / Navy / Blue", "style": "Lifestyle", "color": "Azul", "price": 330, "cond": "", "tech": ["Malla con overlays de ondas", "Tuned Air en talón y antepié", "Goma", "Cordones"], "feats": ["Las ondas TN más icónicas", "Placa estructural en el arco", "El favorito de la calle"], "vibe": "tn blanco con azul, las ondas que la calle respeta 🌊 va con jogger negro o short. veredicto: clásico callejero, si eres 8 us no lo sueltes", "size": "8", "imgs": ["img/PROD-043-pro.jpg"], "eu": "41", "cm": "26", "pro": true, "floor": 300, "tier": "B", "rev": 280}, {"id": "PROD-044", "brand": "On", "model": "Cloudmonster", "cw": "Pink / Magenta", "style": "Running", "color": "Rosa", "price": 400, "cond": "", "tech": ["Malla técnica rosa", "CloudTec de máxima amortiguación", "Pods CloudTec", "Cordones jaspeados"], "feats": ["Rosa con acentos magenta", "Suela de nubes", "Colchón suizo pa' todo el día"], "vibe": "cloudmonster rosa, comodidad que se ve divertida 🌸 pa' correr, caminar o salir. veredicto: si eres 9.5 us y quieres color, es este", "size": "9.5", "imgs": ["img/PROD-044-pro.jpg"], "eu": "43", "cm": "27.5", "pro": true, "floor": 350, "tier": "A", "rev": 330}, {"id": "PROD-045", "brand": "Nike", "model": "Guide", "cw": "Black / Orange", "style": "Running", "color": "Negro", "price": 250, "cond": "", "tech": ["Malla técnica negra", "Espuma de running", "Goma con acento naranja", "Cordones"], "feats": ["Negro que aguanta todo", "Detalle naranja en la suela", "Pa' correr o caminar todo el día sin sufrir"], "vibe": "nike negro con naranja, de los que usas pa' todo y no te preocupas 🖤 veredicto: caballito de batalla, si eres 7 us va", "size": "7", "imgs": ["img/PROD-045-pro.jpg"], "eu": "40", "cm": "25", "pro": true, "floor": 230, "tier": "D", "rev": 230}, {"id": "PROD-046", "brand": "Nike", "model": "Air Max", "cw": "Blue / Black / Yellow", "style": "Lifestyle", "color": "Azul", "price": 280, "cond": "", "tech": ["Sintético brillante con cubierta", "Air Max visible", "Goma", "Cordones"], "feats": ["Azul eléctrico con swoosh amarillo", "Look futurista de los 2000s", "Fácil de combinar con jeans, cargo o joggers"], "vibe": "air max azul eléctrico con swoosh amarillo, pinta de auto de carreras 🏎️ pa' los que les gusta resaltar. veredicto: statement, si eres 7 us atrévete", "size": "7", "imgs": ["img/PROD-046-pro.jpg"], "eu": "40", "cm": "25", "pro": true, "floor": 250, "tier": "C", "rev": 230}, {"id": "PROD-047", "brand": "Nike", "model": "Phantom (FG)", "cw": "White / Orange", "style": "Fútbol", "color": "Blanco", "price": 250, "cond": "", "tech": ["Sintético texturizado + cuello tejido", "Plantilla acolchada", "Tacos para césped natural (FG)", "Cordones"], "feats": ["Pensado pa' control de balón", "Blanco con detalles naranja", "Botín de caña alta"], "vibe": "phantom blanco con naranja, pa' el que tiene toque y quiere que se note ⚽ veredicto: botín de crack, si eres 7 us a la cancha", "size": "7", "imgs": ["img/PROD-047-pro.jpg"], "eu": "40", "cm": "25", "pro": true, "floor": 230, "tier": "D", "rev": 230}, {"id": "PROD-048", "brand": "Adidas", "model": "Adizero Adios", "cw": "White / Black / Solar Red", "style": "Running", "color": "Blanco", "price": 280, "cond": "", "tech": ["Malla técnica ligera", "Boost / Lightstrike", "Goma Continental", "Cordones"], "feats": ["Degradado rojo solar en la mediasuela", "Tres rayas negras", "Pa' correr o caminar todo el día sin sufrir"], "vibe": "adizero blanco con rojo solar, pinta de competencia 🏁 ligero y rápido. veredicto: pa' tus 10k, si eres 10 us va", "size": "10", "imgs": ["img/PROD-048-pro.jpg"], "eu": "44", "cm": "28", "pro": true, "floor": 250, "tier": "C", "rev": 230}, {"id": "PROD-049", "brand": "Jordan", "model": "Air Jordan 1 Mid", "cw": "White / Black / Purple", "style": "Básquet", "color": "Morado", "price": 400, "cond": "", "tech": ["Cuero", "Air-Sole encapsulado", "Goma de básquet", "Cordones"], "feats": ["Morado con negro, bien 'court purple'", "La silueta que empezó todo", "Mid: más fácil de combinar que el High"], "vibe": "jordan 1 mid morado con negro, el color que nadie tiene en su rotación 💜 va con jean negro o jogger. veredicto: j1 con personalidad, si eres 7.5 us va", "size": "7.5", "imgs": ["img/PROD-049-pro.jpg"], "eu": "40.5", "cm": "25.5", "pro": true, "floor": 350, "tier": "A", "rev": 330}, {"id": "PROD-050", "brand": "Mizuno", "model": "Wave Lightning", "cw": "Red / Blue", "style": "Running", "color": "Rojo", "price": 250, "cond": "", "tech": ["Sintético + malla", "Wave plate", "Goma de indoor", "Cordones"], "feats": ["Rojo intenso con detalles celeste", "Pensado pa' vóley / indoor", "Pa' correr o caminar todo el día sin sufrir"], "vibe": "mizuno rojo, calidad japonesa pa' cancha techada 🏐 agarra bien y pesa poco. veredicto: pa' los que juegan en serio, si eres 10 us va", "size": "10", "imgs": ["img/PROD-050-pro.jpg"], "eu": "44", "cm": "28", "pro": true, "floor": 230, "tier": "D", "rev": 230}, {"id": "PROD-051", "brand": "Nike", "model": "Air Force 1 Low", "cw": "White / Royal Blue", "style": "Lifestyle", "color": "Blanco", "price": 330, "cond": "", "tech": ["Cuero blanco", "Air encapsulado", "Goma blanca", "Cordones"], "feats": ["Detalles azul royal en talón y swoosh", "Etiqueta especial en la lengüeta", "Blanco con azul, bien clásico"], "vibe": "af1 blanco con azul, clean y con un toque de color justo 💙 va con jean o short. veredicto: af1 que no falla, si eres 8.5 us va", "size": "8.5", "imgs": ["img/PROD-051-pro.jpg"], "eu": "42", "cm": "26.5", "pro": true, "floor": 300, "tier": "B", "rev": 280}, {"id": "PROD-052", "brand": "Oasics", "model": "Gel-Quantum 360", "cw": "Black / Purple / Lime", "style": "Running", "color": "Negro", "price": 280, "cond": "", "tech": ["Malla + overlays", "Gel visible 360°", "Goma", "Cordones"], "feats": ["Gel visible en toda la suela", "Morado y lima sobre negro", "Look tech de los 2000s"], "vibe": "gel-quantum negro con morado, pinta tech y comodidad de gel por todos lados 💜 va con cargo negro. veredicto: tech-wear listo, si eres 9.5 us va", "size": "9.5", "imgs": ["img/PROD-052-pro.jpg"], "eu": "43", "cm": "27.5", "pro": true, "floor": 250, "tier": "C", "rev": 230}, {"id": "PROD-053", "brand": "Oasics", "model": "GT-1000", "cw": "Black / White", "style": "Running", "color": "Negro", "price": 280, "cond": "", "tech": ["Malla técnica negra", "Gel + espuma FF", "Goma de running", "Cordones"], "feats": ["Estabilidad pa' pisada pronadora", "Negro con suela blanca", "Pa' correr o caminar todo el día sin sufrir"], "vibe": "negro con suela blanca, el running de siempre que va con todo 🖤 veredicto: confort diario, si eres 9.5 us va", "size": "9.5", "imgs": ["img/PROD-053-pro.jpg"], "eu": "43", "cm": "27.5", "pro": true, "floor": 250, "tier": "C", "rev": 230}, {"id": "PROD-054", "brand": "New Balance", "model": "FuelCell", "cw": "Black / Silver", "style": "Running", "color": "Negro", "price": 280, "cond": "", "tech": ["Malla técnica", "FuelCell", "Goma de running", "Cordones"], "feats": ["N plateada grande", "Negro jaspeado", "Pa' correr o caminar todo el día sin sufrir"], "vibe": "nb negro con la N plateada, rápido y sobrio 🖤 pa' correr o pa' el día. veredicto: running que se ve bien, si eres 9.5 us va", "size": "9.5", "imgs": ["img/PROD-054-pro.jpg"], "eu": "43", "cm": "27.5", "pro": true, "floor": 250, "tier": "C", "rev": 230}, {"id": "PROD-055", "brand": "Nike", "model": "Air Winflo", "cw": "Grey / Red", "style": "Running", "color": "Gris", "price": 250, "cond": "", "tech": ["Malla técnica gris", "Air Zoom / espuma", "Goma de running", "Cordones"], "feats": ["Swoosh rojo en contraste", "Gris claro fácil de combinar", "Pa' correr o caminar todo el día sin sufrir"], "vibe": "nike gris con swoosh rojo, el running clásico 🔴 cómodo y ligero. veredicto: pa' todos los días, si eres 7.5 us va", "size": "7.5", "imgs": ["img/PROD-055-pro.jpg"], "eu": "40.5", "cm": "25.5", "pro": true, "floor": 230, "tier": "D", "rev": 230}, {"id": "PROD-056", "brand": "Nike", "model": "P-6000", "cw": "Triple Black", "style": "Lifestyle", "color": "Negro", "price": 280, "cond": "", "tech": ["Malla + overlays sintéticos", "Espuma de running retro", "Goma", "Cordones"], "feats": ["Todo negro, silueta 2000s", "Chunky pero ligero", "Fácil de combinar con jeans, cargo o joggers"], "vibe": "triple black con silueta de los 2000s, pinta y comodidad sin ensuciarse 🖤 va con cargo o jean negro. veredicto: el que se usa con todo, si eres 7 us va", "size": "7", "imgs": ["img/PROD-056-pro.jpg"], "eu": "40", "cm": "25", "pro": true, "floor": 250, "tier": "C", "rev": 230}, {"id": "PROD-057", "brand": "Nike", "model": "Air More Uptempo", "cw": "Triple Black", "style": "Básquet", "color": "Negro", "price": 330, "cond": "", "tech": ["Cuero negro con letras AIR", "Air visible en toda la suela", "Goma de básquet", "Cordones + tirador"], "feats": ["Letras AIR gigantes en negro sobre negro", "Icono de los 90s", "Chunky y con presencia"], "vibe": "uptempo negro, las letras AIR en modo sigilo 🖤 pisa fuerte y va con todo oscuro. veredicto: presencia pura, si eres 8 us no lo pienses", "size": "8", "imgs": ["img/PROD-057-pro.jpg"], "eu": "41", "cm": "26", "pro": true, "floor": 300, "tier": "B", "rev": 280}, {"id": "PROD-058", "brand": "New Balance", "model": "FuelCell", "cw": "Black / Volt / Orange", "style": "Running", "color": "Negro", "price": 280, "cond": "", "tech": ["Malla técnica negra", "FuelCell", "Goma de running", "Cordones"], "feats": ["N con degradado volt a naranja", "Suela gorda de FuelCell", "Pa' correr o caminar todo el día sin sufrir"], "vibe": "nb negro con la N en degradado neón, pinta de velocidad 🔥 rebote rico. veredicto: running con flow, si eres 8 us va", "size": "8", "imgs": ["img/PROD-058-pro.jpg"], "eu": "41", "cm": "26", "pro": true, "floor": 250, "tier": "C", "rev": 230}, {"id": "PROD-059", "brand": "Adidas", "model": "Samba", "cw": "Wonder Beige / Gum", "style": "Lifestyle", "color": "Crema", "price": 330, "cond": "", "tech": ["Gamuza beige", "Cupsole de goma", "Goma gum", "Cordones"], "feats": ["Beige monocromo con suela gum", "Silueta de perfil bajo", "Fácil de combinar con jeans, cargo o joggers"], "vibe": "adidas beige con suela gum, el tono que va con todo y se ve caro 🤎 jean claro o pantalón de tela. veredicto: básico elegante, si eres 9.5 us va", "size": "9.5", "imgs": ["img/PROD-059-pro.jpg"], "eu": "43", "cm": "27.5", "pro": true, "floor": 300, "tier": "B", "rev": 280}, {"id": "PROD-060", "brand": "Nike", "model": "Air Force 1 Low", "cw": "Black / White (Panda)", "style": "Lifestyle", "color": "Negro", "price": 330, "cond": "", "tech": ["Cuero blanco y negro", "Air encapsulado", "Goma blanca", "Cordones"], "feats": ["El combo panda que nunca pasa de moda", "Blanco y negro, combina con todo", "Fácil de combinar con jeans, cargo o joggers"], "vibe": "af1 panda, blanco y negro, el básico definitivo 🐼 va con literalmente todo. veredicto: si eres 8 us y no tienes uno, este es", "size": "8", "imgs": ["img/PROD-060-pro.jpg"], "eu": "41", "cm": "26", "pro": true, "floor": 300, "tier": "B", "rev": 280}];
+const PACKS = [{"id": "P01", "tipo": "Trío", "nombre": "Trío talla 7 · Lifestyle + Running", "talla": "7", "codes": ["PROD-041", "PROD-046", "PROD-045"], "pub": 860, "precio": 810, "ahorro": 50}, {"id": "P02", "tipo": "Trío", "nombre": "Trío talla 7 · Básquet + Running", "talla": "7", "codes": ["PROD-025", "PROD-034", "PROD-047"], "pub": 860, "precio": 810, "ahorro": 50}, {"id": "P03", "tipo": "Dúo", "nombre": "Dúo talla 7 · Street", "talla": "7", "codes": ["PROD-040", "PROD-056"], "pub": 560, "precio": 540, "ahorro": 20}, {"id": "P04", "tipo": "Trío", "nombre": "Trío talla 7.5 · Campus + Kyrie", "talla": "7.5", "codes": ["PROD-022", "PROD-038", "PROD-055"], "pub": 860, "precio": 810, "ahorro": 50}, {"id": "P05", "tipo": "Trío", "nombre": "Trío talla 8 · Running FuelCell", "talla": "8", "codes": ["PROD-014", "PROD-029", "PROD-028"], "pub": 860, "precio": 810, "ahorro": 50}, {"id": "P06", "tipo": "Trío", "nombre": "Trío talla 8 · Running diario", "talla": "8", "codes": ["PROD-008", "PROD-036", "PROD-058"], "pub": 890, "precio": 840, "ahorro": 50}, {"id": "P07", "tipo": "Trío", "nombre": "Trío talla 8 · Air Max", "talla": "8", "codes": ["PROD-043", "PROD-007", "PROD-039"], "pub": 890, "precio": 840, "ahorro": 50}, {"id": "P08", "tipo": "Dúo", "nombre": "Dúo talla 8 · Air Max + Fútbol", "talla": "8", "codes": ["PROD-012", "PROD-027"], "pub": 560, "precio": 540, "ahorro": 20}, {"id": "P09", "tipo": "Trío", "nombre": "Trío talla 8.5 · Running + Fútbol", "talla": "8.5", "codes": ["PROD-011", "PROD-015", "PROD-021"], "pub": 860, "precio": 810, "ahorro": 50}, {"id": "P10", "tipo": "Trío", "nombre": "Trío talla 9.5 · Running", "talla": "9.5", "codes": ["PROD-024", "PROD-030", "PROD-053"], "pub": 840, "precio": 790, "ahorro": 50}, {"id": "P11", "tipo": "Dúo", "nombre": "Dúo talla 9.5 · Oasics + NB", "talla": "9.5", "codes": ["PROD-052", "PROD-054"], "pub": 560, "precio": 540, "ahorro": 20}, {"id": "P12", "tipo": "Trío", "nombre": "Trío talla 10 · Running Adizero", "talla": "10", "codes": ["PROD-009", "PROD-048", "PROD-050"], "pub": 860, "precio": 810, "ahorro": 50}, {"id": "P13", "tipo": "Dúo", "nombre": "Dúo talla 10 · NB 530 + Air Max", "talla": "10", "codes": ["PROD-005", "PROD-016"], "pub": 580, "precio": 560, "ahorro": 20}];
+const ROPA = [{"id": "ROPA-001", "cat": "Pantalones y shorts", "estilo": "Denim", "name": "Jean baggy gris lavado", "talla": "36", "tier": "B", "price": 300, "floor": 270, "img": "img/ropa/ROPA-001.jpg"}, {"id": "ROPA-002", "cat": "Pantalones y shorts", "estilo": "Sport", "name": "Buzo jogger gris jaspeado", "talla": "S", "tier": "B", "price": 300, "floor": 270, "img": "img/ropa/ROPA-002.jpg"}, {"id": "ROPA-003", "cat": "Camisas", "estilo": "Casual", "name": "Camisa manga corta oliva", "talla": "S", "tier": "B", "price": 300, "floor": 270, "img": "img/ropa/ROPA-003.jpg"}, {"id": "ROPA-004", "cat": "Camisas", "estilo": "Texturizado", "name": "Camisa café texturizada", "talla": "XS", "tier": "B", "price": 300, "floor": 270, "img": "img/ropa/ROPA-004.jpg"}, {"id": "ROPA-005", "cat": "Camisas", "estilo": "Casual", "name": "Camisa de lino crema", "talla": "L", "tier": "B", "price": 300, "floor": 270, "img": "img/ropa/ROPA-005.jpg"}, {"id": "ROPA-006", "cat": "Camisas", "estilo": "Cargo / utility", "name": "Camisa negra con bolsillos", "talla": "S", "tier": "B", "price": 300, "floor": 270, "img": "img/ropa/ROPA-006.jpg"}, {"id": "ROPA-007", "cat": "Camisas", "estilo": "Denim", "name": "Camisa denim crop bordada", "talla": "M", "tier": "B", "price": 300, "floor": 270, "img": "img/ropa/ROPA-007.jpg"}, {"id": "ROPA-008", "cat": "Camisas", "estilo": "Texturizado", "name": "Camisa crema texturizada", "talla": "S", "tier": "B", "price": 300, "floor": 270, "img": "img/ropa/ROPA-008.jpg"}, {"id": "ROPA-009", "cat": "Camisas", "estilo": "Rayas", "name": "Camisa a rayas celeste", "talla": "XS", "tier": "B", "price": 300, "floor": 270, "img": "img/ropa/ROPA-009.jpg"}, {"id": "ROPA-010", "cat": "Abrigos", "estilo": "Tejido", "name": "Chaleco tejido gris", "talla": "L", "tier": "A", "price": 380, "floor": 340, "img": "img/ropa/ROPA-010.jpg"}, {"id": "ROPA-011", "cat": "Abrigos", "estilo": "Texturizado", "name": "Chaqueta crema texturizada con cierre", "talla": "S", "tier": "A", "price": 380, "floor": 340, "img": "img/ropa/ROPA-011.jpg"}, {"id": "ROPA-012", "cat": "Abrigos", "estilo": "Denim", "name": "Chaqueta denim negra Bury the Light", "talla": "XS", "tier": "A", "price": 380, "floor": 340, "img": "img/ropa/ROPA-012.jpg"}, {"id": "ROPA-013", "cat": "Abrigos", "estilo": "Cargo / utility", "name": "Chaqueta marfil con bolsillos", "talla": "S", "tier": "A", "price": 380, "floor": 340, "img": "img/ropa/ROPA-013.jpg"}, {"id": "ROPA-014", "cat": "Accesorios", "estilo": "Accesorio", "name": "Gorra gris lavada alien", "talla": "Única", "tier": "D", "price": 150, "floor": 130, "img": "img/ropa/ROPA-014.jpg"}, {"id": "ROPA-015", "cat": "Accesorios", "estilo": "Accesorio", "name": "Medias UFO Zone", "talla": "Única", "tier": "D", "price": 100, "floor": 90, "img": "img/ropa/ROPA-015.jpg"}, {"id": "ROPA-016", "cat": "Pantalones y shorts", "estilo": "Denim", "name": "Jean claro wide leg", "talla": "36", "tier": "B", "price": 300, "floor": 270, "img": "img/ropa/ROPA-016.jpg"}, {"id": "ROPA-017", "cat": "Pantalones y shorts", "estilo": "Denim", "name": "Jean gris lavado recto", "talla": "38", "tier": "B", "price": 300, "floor": 270, "img": "img/ropa/ROPA-017.jpg"}, {"id": "ROPA-018", "cat": "Pantalones y shorts", "estilo": "Denim", "name": "Jean azul campana", "talla": "38", "tier": "B", "price": 300, "floor": 270, "img": "img/ropa/ROPA-018.jpg"}, {"id": "ROPA-019", "cat": "Poleras", "estilo": "Básico", "name": "Polera blanca básica", "talla": "M", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-019.jpg"}, {"id": "ROPA-020", "cat": "Poleras", "estilo": "Gráfico", "name": "Polera blanca Heart", "talla": "M", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-020.jpg"}, {"id": "ROPA-021", "cat": "Poleras", "estilo": "Gráfico", "name": "Polera blanca cerezas", "talla": "S", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-021.jpg"}, {"id": "ROPA-022", "cat": "Poleras", "estilo": "Gráfico", "name": "Polera blanca We don't follow trends", "talla": "XS", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-022.jpg"}, {"id": "ROPA-023", "cat": "Poleras", "estilo": "Básico", "name": "Polera blanca básica", "talla": "XL", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-023.jpg"}, {"id": "ROPA-024", "cat": "Poleras", "estilo": "Gráfico", "name": "Polera blanca Anything can", "talla": "S", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-024.jpg"}, {"id": "ROPA-025", "cat": "Poleras", "estilo": "Básico", "name": "Polera blanca boxy fit", "talla": "A confirmar", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-025.jpg"}, {"id": "ROPA-026", "cat": "Poleras", "estilo": "Gráfico", "name": "Polera negra Original Baby", "talla": "L", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-026.jpg"}, {"id": "ROPA-027", "cat": "Poleras", "estilo": "Tejido", "name": "Polera negra tejida", "talla": "M", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-027.jpg"}, {"id": "ROPA-028", "cat": "Poleras", "estilo": "Gráfico", "name": "Polera blanca Classic relojes", "talla": "L", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-028.jpg"}, {"id": "ROPA-029", "cat": "Poleras", "estilo": "Gráfico", "name": "Polera blanca Costiera Amalfitana", "talla": "M", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-029.jpg"}, {"id": "ROPA-030", "cat": "Poleras", "estilo": "Gráfico", "name": "Polera blanca Apex 360", "talla": "M", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-030.jpg"}, {"id": "ROPA-031", "cat": "Poleras", "estilo": "Rayas", "name": "Polo a rayas azul y rojo", "talla": "M", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-031.jpg"}, {"id": "ROPA-032", "cat": "Poleras", "estilo": "Rayas", "name": "Polera a rayas azul", "talla": "M", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-032.jpg"}, {"id": "ROPA-033", "cat": "Poleras", "estilo": "Básico", "name": "Polera café oversize", "talla": "XL", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-033.jpg"}, {"id": "ROPA-034", "cat": "Poleras", "estilo": "Gráfico", "name": "Polera rosa gráfica", "talla": "L", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-034.jpg"}, {"id": "ROPA-035", "cat": "Poleras", "estilo": "Gráfico", "name": "Polera lila gráfica", "talla": "L", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-035.jpg"}, {"id": "ROPA-036", "cat": "Poleras", "estilo": "Gráfico", "name": "Polera blanca Laidback Stories", "talla": "L", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-036.jpg"}, {"id": "ROPA-037", "cat": "Abrigos", "estilo": "Casual", "name": "Saco largo negro", "talla": "S", "tier": "A", "price": 380, "floor": 340, "img": "img/ropa/ROPA-037.jpg"}, {"id": "ROPA-038", "cat": "Pantalones y shorts", "estilo": "Cargo / utility", "name": "Short cargo negro", "talla": "34", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-038.jpg"}, {"id": "ROPA-039", "cat": "Pantalones y shorts", "estilo": "Texturizado", "name": "Short crema texturizado", "talla": "L", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-039.jpg"}, {"id": "ROPA-040", "cat": "Pantalones y shorts", "estilo": "Cargo / utility", "name": "Short cargo blanco", "talla": "M", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-040.jpg"}, {"id": "ROPA-041", "cat": "Pantalones y shorts", "estilo": "Básico", "name": "Short blanco", "talla": "S", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-041.jpg"}, {"id": "ROPA-042", "cat": "Pantalones y shorts", "estilo": "Sport", "name": "Short negro deportivo", "talla": "XS", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-042.jpg"}, {"id": "ROPA-043", "cat": "Pantalones y shorts", "estilo": "Cargo / utility", "name": "Short cargo negro", "talla": "44", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-043.jpg"}, {"id": "ROPA-044", "cat": "Poleras", "estilo": "Básico", "name": "Musculosa blanca con logo", "talla": "L", "tier": "C", "price": 230, "floor": 200, "img": "img/ropa/ROPA-044.jpg"}, {"id": "ROPA-045", "cat": "Abrigos", "estilo": "Gráfico", "name": "Hoodie blanco Jelly", "talla": "L", "tier": "A", "price": 380, "floor": 340, "img": "img/ropa/ROPA-045.jpg"}, {"id": "ROPA-046", "cat": "Abrigos", "estilo": "Sport", "name": "Sudadera roja con cierre", "talla": "M", "tier": "A", "price": 380, "floor": 340, "img": "img/ropa/ROPA-046.jpg"}, {"id": "ROPA-047", "cat": "Abrigos", "estilo": "Tejido", "name": "Suéter azul tejido", "talla": "S", "tier": "A", "price": 380, "floor": 340, "img": "img/ropa/ROPA-047.jpg"}, {"id": "ROPA-048", "cat": "Accesorios", "estilo": "Accesorio", "name": "Llavero con dijes", "talla": "Única", "tier": "D", "price": 100, "floor": 90, "img": "img/ropa/ROPA-048.jpg"}];
+const COLORS = {Negro:"#17140F",Blanco:"#FFFFFF",Crema:"#E6D5B3",Gris:"#9B9A96",Rosa:"#F2A7B8",Azul:"#2E5BBA",Rojo:"#C8372D",Verde:"#5FA37A",Morado:"#7B5CC4",Amarillo:"#E4E23B",Multicolor:"conic-gradient(#F2A7B8,#E4E23B,#5FA37A,#2E5BBA,#F2A7B8)"};
+const $ = s => document.querySelector(s);
+const promoOn = () => true;                            // el precio LIVE siempre se muestra
+const off = p => Math.round((1 - p.floor / p.price) * 100);
+const MIN_PAR = 230;                                   // ningún par baja de aquí
+const PACK = n => n >= 4 ? {name:"Pack 4+", d:80} : n === 3 ? {name:"Trío", d:50} : n === 2 ? {name:"Dúo", d:20} : null;   // Bs por pack
+const TOPE = {A:0, B:50, C:20, D:0};                   // descuento máximo por par dentro de un pack
+const base = p => p.price;
+const packTotal = list => { const k = PACK(list.length); const full = list.reduce((s,p) => s + p.price, 0);
+  if (!k) { const per = list.map(base); return {k, full, tot: per.reduce((a,b)=>a+b,0), per}; }
+  const per = list.map(p => p.floor); let rest = k.d;
+  list.map((p,i) => i).sort((a,b) => (TOPE[list[b].tier]||0) - (TOPE[list[a].tier]||0)).forEach(i => { const cap = Math.max(0, Math.min(TOPE[list[i].tier]||0, per[i] - MIN_PAR)); const take = Math.min(cap, rest); per[i] -= take; rest -= take; });
+  return {k, full, tot: per.reduce((a,b)=>a+b,0), per}; };
+let PK = [];
+try { PK = JSON.parse(localStorage.getItem("rmz-pack") || "[]").filter(id => P.some(p => p.id === id)); } catch(e) { PK = []; }
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const sizeTxt = p => `US ${p.size} · EU ${p.eu}`;
+const sizeFull = p => `US ${p.size} · EU ${p.eu} · ${p.cm} cm`;
+const bs = n => "Bs " + n.toLocaleString("es-BO");
+const sold = p => VENDIDOS.includes(p.id);
+const priceHTML = p => promoOn() ? `<s>${bs(p.price)}</s><span class="fl">${bs(p.floor)}</span><em>precio LIVE</em>` : bs(p.price);
+const waUrl = (p, txt) => {
+  const msg = txt ? txt : p ? `Hola RAMAZON 👟 Quiero el ${p.id}: ${p.brand} ${p.model} ${p.cw} (${sizeTxt(p)}) a ${bs(p.price)} (${bs(p.floor)} si es en el LIVE). ¿Sigue disponible?` : "Hola RAMAZON 👟 Quiero ver el catálogo.";
+  return `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}`;
+};
+const pretty = n => "+" + n.slice(0,3) + " " + n.slice(3);
+["#nav-wa","#hero-wa","#foot-wa"].forEach(s => $(s).href = waUrl());
+$("#promo-wa").href = waUrl(null, "Hola RAMAZON 👟 Avísame cuando sea el próximo live.");
+$("#qr-wa").href = waUrl(null, "Hola RAMAZON 👟 Te mando el comprobante de reserva del par #");
+
+$("#wa-text").textContent = pretty(WHATSAPP);
+$("#hero-count").textContent = `${P.filter(p => !sold(p)).length} pares disponibles`;
+$("#hero-ropa").textContent = `${ROPA.filter(p => !sold(p)).length} prendas`;
+
+const brands = [...new Set(P.map(p => p.brand))];
+const t = brands.map(b => `<span>${esc(b)}</span><span><i>★</i></span>`).join("");
+$("#ticker").innerHTML = t + t;
+
+$("#feat").innerHTML = DESTACADOS.map(id => P.find(p => p.id === id)).filter(Boolean).map(p => `
+  <button class="fc" data-id="${p.id}" aria-label="Ver ${esc(p.brand+' '+p.model)}">
+    <span class="ph"><img src="${p.imgs[0]}" alt="${esc(p.brand+' '+p.model+' '+p.cw)}"><span class="tag sz">${sizeTxt(p)}</span></span>
+    <span class="cap"><span class="mono">${esc(p.brand)} · ${p.id}</span><strong>${esc(p.model)}</strong><span class="price">${priceHTML(p)}</span></span>
+  </button>`).join("");
+
+const SIZES = ["Todas", ...[...new Set(P.map(p => p.size))].sort((a,b) => a-b)];
+const EUOF = s => (P.find(p => p.size === s)||{}).eu;
+const STYLES = ["Todo","Lifestyle","Running","Básquet","Skate","Fútbol"];
+const CLIST = ["Todos", ...Object.keys(COLORS).filter(c => P.some(p => p.color === c))];
+let fS = "Todas", fY = "Todo", fC = "Todos", fB = "Todas", sort = "feat";
+const BRANDS = ["Todas", ...[...new Set(P.map(p => p.brand))].sort((a, b) => P.filter(p => p.brand === b).length - P.filter(p => p.brand === a).length || a.localeCompare(b))];
+try { const s = localStorage.getItem("rmz-size"); if (s && SIZES.includes(s)) fS = s; } catch(e) {}
+function chips(el, list, cur, cls, fmt, on){
+  el.innerHTML = list.map(v => `<button class="chip ${cls}" aria-pressed="${v===cur}" data-v="${esc(v)}">${fmt(v)}</button>`).join("");
+  el.onclick = e => { const b = e.target.closest("button"); if (b) on(b.dataset.v); };
+}
+function fSum(){
+  const a = [fS !== "Todas" ? `US ${fS}` : "", fY !== "Todo" ? fY : "", fC !== "Todos" ? fC : "", fB !== "Todas" ? fB : ""].filter(Boolean);
+  const el = document.getElementById("fsum"); if (el) el.textContent = a.length ? a.join(" · ") : "talla, estilo, color, marca";
+}
+function setFOpen(open, save, fid, tid, key){
+  fid = fid || "filters"; tid = tid || "ftog"; key = key || "rmz-fopen";
+  const f = document.getElementById(fid), t = document.getElementById(tid); if (!f || !t) return;
+  f.classList.toggle("closed", !open); t.setAttribute("aria-expanded", String(open));
+  t.querySelector(".ar").textContent = open ? "▴" : "▾";
+  t.setAttribute("aria-label", open ? "Ocultar filtros" : "Mostrar filtros");
+  if (save) { try { localStorage.setItem(key, open ? "1" : "0"); } catch(e) {} }
+}
+(function(){
+  let open = window.innerWidth > 680;
+  try { const v = localStorage.getItem("rmz-fopen"); if (v === "0" || v === "1") open = v === "1"; } catch(e) {}
+  setFOpen(open, false);
+  const t = document.getElementById("ftog");
+  if (t) t.addEventListener("click", () => setFOpen(document.getElementById("filters").classList.contains("closed"), true));
+  let ro = window.innerWidth > 680;
+  try { const v = localStorage.getItem("rmz-rfopen"); if (v === "0" || v === "1") ro = v === "1"; } catch(e) {}
+  setFOpen(ro, false, "rfilters", "rftog", "rmz-rfopen");
+  const rt = document.getElementById("rftog");
+  if (rt) rt.addEventListener("click", () => setFOpen(document.getElementById("rfilters").classList.contains("closed"), true, "rfilters", "rftog", "rmz-rfopen"));
+})();
+function render(){
+  chips($("#sizes"), SIZES, fS, "size", v => v === "Todas" ? v : `US ${v} <small style="opacity:.6">· ${EUOF(v)}</small>`, v => { fS = v; try{localStorage.setItem("rmz-size", v)}catch(e){} render(); });
+  chips($("#styles"), STYLES, fY, "", v => v, v => { fY = v; render(); });
+  chips($("#colors"), CLIST, fC, "", v => v === "Todos" ? v : `<span class="dot" style="background:${COLORS[v]}"></span>${v}`, v => { fC = v; render(); });
+  chips($("#brands"), BRANDS, fB, "", v => v, v => { fB = v; render(); });
+  fSum();
+  let list = P.filter(p => (fS === "Todas" || p.size === fS) && (fY === "Todo" || p.style === fY) && (fC === "Todos" || p.color === fC) && (fB === "Todas" || p.brand === fB));
+  if (sort === "lo") list.sort((a,b) => a.price - b.price);
+  else if (sort === "hi") list.sort((a,b) => b.price - a.price);
+  else list.sort((a,b) => (b.pro - a.pro) || a.id.localeCompare(b.id));
+  list.sort((a,b) => sold(a) - sold(b));
+  const free = list.filter(p => !sold(p)).length;
+  $("#count").innerHTML = `<b>${free}</b> ${free === 1 ? "par disponible" : "pares disponibles"}${fS !== "Todas" ? ` en US ${fS}` : ""}`;
+  $("#grid").innerHTML = list.length ? list.map(p => `
+    <article class="card">
+      <button class="ph" data-id="${p.id}" aria-label="Ver ${esc(p.brand+' '+p.model)}">
+        <img src="${p.imgs[0]}" alt="${esc(p.brand+' '+p.model+' '+p.cw)}" loading="lazy">
+        <span class="tag id">${p.id.replace("PROD-","#")}</span><span class="tag sz">${sizeTxt(p)}</span>
+        ${p.pro ? "" : '<span class="tag real">Foto real</span>'}${sold(p) ? '<span class="sold"><span>Vendido</span></span>' : ""}
+      </button>
+      <div class="body">
+        <div class="meta"><span class="brand mono">${esc(p.brand)}</span><span class="name">${esc(p.model)}</span><span class="cw">${esc(p.cw)}</span></div>
+        <div class="buy"><span class="price">${priceHTML(p)}</span>${sold(p) ? "" : `<a class="btn ink want" href="${waUrl(p)}" target="_blank" rel="noopener">Lo quiero</a>`}</div>
+
+      </div>
+    </article>`).join("") : `<p class="empty">No hay pares con ese filtro. Prueba otra combinación o escríbenos: seguido entra stock nuevo.</p>`;
+}
+$("#sort").onchange = e => { sort = e.target.value; render(); };
+render();
+
+const dlg = $("#dlg");
+/* ---- ropa ---- */
+const RCATS = ["Todo", "Poleras", "Camisas", "Abrigos", "Pantalones y shorts", "Accesorios"].filter(c => c === "Todo" || ROPA.some(r => r.cat === c));
+const RORD = ["XS","S","M","L","XL","34","36","38","44","Única","A confirmar"];
+const RSIZES = ["Todas", ...RORD.filter(z => ROPA.some(r => r.talla === z)), ...[...new Set(ROPA.map(r => r.talla))].filter(z => !RORD.includes(z))];
+let rC = "Todo", rS = "Todas", rE = "Todos";
+const RSTY = ["Todos", ...["Básico","Gráfico","Rayas","Denim","Texturizado","Tejido","Cargo / utility","Sport","Casual","Accesorio"].filter(e => ROPA.some(r => r.estilo === e))];
+const rTalla = r => /^\d+$/.test(r.talla) ? `Talla ${r.talla}` : r.talla === "Única" ? "Talla única" : r.talla === "A confirmar" ? "Talla a confirmar" : `Talla ${r.talla}`;
+const waRopa = r => `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(`Hola RAMAZON 👕 Quiero la ${r.id}: ${r.name} Bershka (${rTalla(r).toLowerCase()}) a ${bs(r.price)} (${bs(r.floor)} si es en el LIVE). ¿Sigue disponible?`)}`;
+function renderRopa(){
+  chips($("#rcats"), RCATS, rC, "", v => v, v => { rC = v; renderRopa(); });
+  chips($("#rsizes"), RSIZES, rS, "size", v => v, v => { rS = v; renderRopa(); });
+  chips($("#rstyles"), RSTY, rE, "", v => v, v => { rE = v; renderRopa(); });
+  { const a = [rC !== "Todo" ? rC : "", rS !== "Todas" ? `Talla ${rS}` : "", rE !== "Todos" ? rE : ""].filter(Boolean); const el = document.getElementById("rfsum"); if (el) el.textContent = a.length ? a.join(" · ") : "tipo, talla, estilo"; }
+  const list = ROPA.filter(r => (rC === "Todo" || r.cat === rC) && (rS === "Todas" || r.talla === rS) && (rE === "Todos" || r.estilo === rE)).sort((a,b) => sold(a) - sold(b));
+  const free = list.filter(r => !sold(r)).length;
+  $("#rcount").innerHTML = `<b>${free}</b> ${free === 1 ? "prenda disponible" : "prendas disponibles"}`;
+  $("#rgrid").innerHTML = list.length ? list.map(r => `
+    <article class="card">
+      <button class="ph" data-rid="${r.id}" aria-label="Ver ${esc(r.name)}">
+        <img src="${r.img}" alt="${esc(r.name)}" loading="lazy">
+        <span class="tag id">${r.id.replace("ROPA-","R")}</span><span class="tag sz">${esc(r.talla === "A confirmar" ? "talla ?" : r.talla)}</span><span class="tag real">nueva</span>
+        ${sold(r) ? '<span class="sold"><span>Vendido</span></span>' : ""}
+      </button>
+      <div class="body">
+        <div class="meta"><span class="brand mono">Bershka · ${esc(r.cat)}</span><span class="name">${esc(r.name)}</span><span class="cw">${esc(rTalla(r))} · ${esc(r.estilo.toLowerCase())}</span></div>
+        <div class="buy"><span class="price">${priceHTML(r)}</span>${sold(r) ? "" : `<a class="btn ink want" href="${waRopa(r)}" target="_blank" rel="noopener">Lo quiero</a>`}</div>
+      </div>
+    </article>`).join("") : `<p class="empty">No hay prendas con ese filtro. Escríbenos: seguido entra ropa nueva.</p>`;
+}
+renderRopa();
+function openR(id){
+  const r = ROPA.find(x => x.id === id); if (!r) return;
+  $("#m-track").innerHTML = `<figure><img src="${r.img}" alt="${esc(r.name)}"></figure>`; $("#m-track").scrollLeft = 0; $("#m-nav").innerHTML = "";
+  $("#m-brand").textContent = `Bershka · ${r.cat} · ${r.id}`;
+  $("#m-title").textContent = r.name;
+  $("#m-price").innerHTML = `<span class="price" style="font-size:22px">${priceHTML(r)}</span>`;
+  $("#m-size").textContent = rTalla(r);
+  $("#m-vibe").hidden = true; $("#m-feats").hidden = true;
+  $("#m-spec").innerHTML = `<dt>Talla</dt><dd>${esc(rTalla(r))}</dd><dt>Tipo</dt><dd>${esc(r.cat)}</dd><dt>Estilo</dt><dd>${esc(r.estilo)}</dd><dt>Estado</dt><dd>Nueva, con etiqueta</dd><dt>Stock</dt><dd>${sold(r) ? "Vendido" : "1 pieza · única"}</dd>`;
+  $("#m-wa").href = waRopa(r); $("#m-wa").hidden = sold(r); $("#m-pk").hidden = true;
+  $("#m-num").textContent = pretty(WHATSAPP); $("#m-code").textContent = r.id;
+  dlg.showModal();
+}
+document.addEventListener("click", e => { const b = e.target.closest("[data-rid]"); if (b) openR(b.dataset.rid); });
+function openP(id){
+  const p = P.find(x => x.id === id); if (!p) return;
+  $("#m-track").innerHTML = p.imgs.map(s => `<figure><img src="${s}" alt="${esc(p.brand+' '+p.model)}"></figure>`).join("");
+  $("#m-track").scrollLeft = 0;
+  $("#m-nav").innerHTML = p.imgs.length > 1 ? p.imgs.map((_,i) => `<button aria-label="Foto ${i+1}" aria-current="${i===0}" data-i="${i}"></button>`).join("") : "";
+  $("#m-brand").textContent = `${p.brand} · ${p.cw}`;
+  $("#m-title").textContent = p.model;
+  $("#m-price").innerHTML = `<span class="price" style="font-size:22px">${priceHTML(p)}</span>`;
+  $("#m-size").textContent = sizeFull(p);
+  $("#m-vibe").hidden = false; $("#m-feats").hidden = false;
+  $("#m-vibe").innerHTML = `<div class="who"><span class="av">R</span><b>ramazon</b><span>la vibra</span></div><p>${esc(p.vibe)}</p>`;
+  $("#m-feats").innerHTML = p.feats.map(f => `<li>${esc(f)}</li>`).join("");
+  const [up, mid, sole, fit] = p.tech;
+  $("#m-spec").innerHTML = `<dt>Talla</dt><dd>${sizeFull(p)}</dd><dt>Upper</dt><dd>${esc(up)}</dd><dt>Mediasuela</dt><dd>${esc(mid)}</dd><dt>Suela</dt><dd>${esc(sole)}</dd><dt>Ajuste</dt><dd>${esc(fit)}</dd><dt>Estilo</dt><dd>${p.style}</dd>${p.cond ? `<dt>Estado</dt><dd>${esc(p.cond)}</dd>` : ""}<dt>Stock</dt><dd>${sold(p) ? "Vendido" : "1 par · único"}</dd>`;
+  $("#m-wa").href = waUrl(p); $("#m-wa").hidden = sold(p);
+  $("#m-pk").hidden = true;
+  $("#m-num").textContent = pretty(WHATSAPP); $("#m-code").textContent = p.id;
+  dlg.showModal();
+}
+$("#m-nav").addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; const tr = $("#m-track"); tr.scrollTo({left: tr.clientWidth * +b.dataset.i, behavior: "smooth"}); });
+$("#m-track").addEventListener("scroll", e => { const i = Math.round(e.target.scrollLeft / e.target.clientWidth); document.querySelectorAll("#m-nav button").forEach((b,j) => b.setAttribute("aria-current", i===j)); });
+document.addEventListener("click", e => { const b = e.target.closest(".fc,.card .ph"); if (b) openP(b.dataset.id); });
+$("#m-close").onclick = () => dlg.close();
+function packBar(){
+  $("#pbar").hidden = true; return;   // solo packs armados: no hay selección libre
+  try { localStorage.setItem("rmz-pack", JSON.stringify(PK)); } catch(e) {}
+  const list = PK.map(id => P.find(p => p.id === id)).filter(p => p && !sold(p));
+  const bar = $("#pbar"); bar.hidden = !list.length; if (!list.length) return;
+  const {k, full, tot, per} = packTotal(list);
+  $("#pb-1").textContent = `Tu pack: ${list.length} ${list.length === 1 ? "par" : "pares"} · ${bs(tot)}`;
+  $("#pb-2").textContent = k ? `${k.name} activado · ahorras ${bs(full - tot)} vs publicado` : "Agrega 1 par más y activas el Dúo (−Bs 20)";
+  const lines = list.map((p, i) => `• ${p.id} ${p.brand} ${p.model} (US ${p.size}) ${bs(per[i])}`).join("\n");
+  $("#pb-wa").href = waUrl(null, `Hola RAMAZON 👟 Quiero este pack${k ? " " + k.name : ""}:\n${lines}\nTotal: ${bs(tot)} (precio LIVE). ¿Siguen disponibles?`);
+}
+function togglePk(id){
+  PK = PK.includes(id) ? PK.filter(x => x !== id) : [...PK, id];
+  document.querySelectorAll(`[data-pk="${id}"]`).forEach(b => { const on = PK.includes(id); b.setAttribute("aria-pressed", on); b.textContent = on ? "✓ En tu pack" : (b.id === "m-pk" ? "＋ Agregar al pack" : "＋ Pack"); });
+  packBar();
+}
+document.addEventListener("click", e => { const b = e.target.closest("[data-pk]"); if (b && !b.dataset.trio) togglePk(b.dataset.pk); });
+$("#pb-clear").onclick = () => { PK = []; render(); packBar(); };
+// packs armados (export 19/20): se ocultan si algún par ya se vendió
+(function(){
+  const out = PACKS.map(pk => ({...pk, pick: pk.codes.map(c => P.find(p => p.id === c))})).filter(pk => pk.pick.every(p => p && !sold(p)));
+  $("#packs-grid").innerHTML = out.map(pk => {
+    const full = pk.pub, tot = pk.precio;
+    const ids = pk.pick.map(p => p.id).join(",");
+    return `<article class="pk">
+      <div class="th" style="grid-template-columns:repeat(${pk.pick.length},1fr)">${pk.pick.map(p => `<img src="${p.imgs[0]}" alt="${esc(p.brand+' '+p.model)}" loading="lazy">`).join("")}</div>
+      <div class="in">
+        <span class="mono">${pk.tipo} · US ${pk.talla} · EU ${pk.pick[0].eu} · ${pk.pick[0].cm} cm</span>
+        <h3>${esc(pk.nombre.replace(/^(Trío|Dúo) talla [\d.]+ · /, ''))}</h3>
+        <ul>${pk.pick.map(p => `<li>${esc(p.brand+' '+p.model)} <span class="mono" style="font-size:11px">${p.style}</span></li>`).join("")}</ul>
+        <div class="row2"><span class="price"><s>${bs(full)}</s><span class="fl">${bs(tot)}</span><em>ahorras ${bs(full - tot)}</em></span>
+        <a class="btn ink want" href="${waUrl(null, `Hola RAMAZON 👟 Quiero el pack ${pk.id} (${pk.nombre}):\n${pk.pick.map(p => `• ${p.id} ${p.brand} ${p.model} (US ${p.size})`).join("\n")}\nPrecio del pack: ${bs(pk.precio)}. ¿Siguen disponibles?`)}" target="_blank" rel="noopener">Quiero este ${pk.tipo.toLowerCase()}</a></div>
+      </div></article>`;
+  }).join("");
+  $("#packs-grid").addEventListener("click", e => { const b = e.target.closest("[data-trio]"); if (!b) return; PK = b.dataset.trio.split(","); render(); packBar(); $("#pbar").scrollIntoView({block:"nearest"}); });
+})();
+packBar();
+dlg.addEventListener("click", e => { if (e.target === dlg) dlg.close(); });
+</script>
+
+</body></html>
